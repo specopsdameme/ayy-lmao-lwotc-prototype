@@ -16,6 +16,7 @@ Not even close to ready. Some enemies are missing, tons of unupdated text, howev
 
 # Job list
 * Figure out the names for the rest of the enemmies. The ones left are:
+       
        * Drones
        
        * MEC Archer
