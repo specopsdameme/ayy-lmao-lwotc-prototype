@@ -17,19 +17,20 @@ Not even close to ready. Some enemies are missing, tons of unupdated text, howev
 # Job list
 * Figure out the names for the rest of the enemmies. The ones left are:
        
-       * Drones
+ * Drones
        
-       * MEC Archer
+ * MEC Archer
        
-       * ADVENT Gunner
+ * ADVENT Gunner
+ 
+ * ADVENT scout
        
-       * ADVENT scout
+ * ADVENT commmando
        
-       * ADVENT commmando
+ * ADVENT Sergeant
        
-       * ADVENT Sergeant
-       
-       * ADVENT Engineer
+ * ADVENT Engineer
+ 
 * Catch the remaining UI text ("untranslated" enemies, aliens instead of Ayyliens, supplies instead of Dosh)
 
 * Finish the status effect "translations"
