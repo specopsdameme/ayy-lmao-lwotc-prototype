@@ -39,6 +39,6 @@ If you thought of something funny, make a pull request. I already have taken sug
 
 # Download
 
-Download the mod [here](https://www.dropbox.com/sh/xmcx4bo3thogpl6/AADW4P1uYGZuzzs2G3YjIULCa?dl=0), and place it in XCOM 2/XCom2-WarOfTheChosen/XComGame/Mods .
+Download the mod [here](https://www.dropbox.com/sh/j4oks7k798a740j/AADHsoQEemi8LEJzToojx18ya?dl=0), and place it in XCOM 2/XCom2-WarOfTheChosen/XComGame/Mods .
 
 The z is there to ensure the proper mod order, as for some reason all local mods are loaded alphabetically. The mod needs to load AFTER LWOTC.
