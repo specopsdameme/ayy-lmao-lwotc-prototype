@@ -37,7 +37,7 @@ Not even close to ready. Some enemies are missing, tons of unupdated text, howev
 
 * Grapple doesn't translate
 
-*Evac doesn't translate
+* Evac doesn't translate
 
 # Contributions
 
