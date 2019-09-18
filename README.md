@@ -33,6 +33,12 @@ Not even close to ready. Some enemies are missing, tons of unupdated text, howev
 
 * If I'm feeling ambitious, "translate" some of the spoken subtitles.
 
+# Bugs I've noticed so far
+
+* Grapple doesn't translate
+
+*Evac doesn't translate
+
 # Contributions
 
 If you thought of something funny, make a pull request. I already have taken suggestions from others.
