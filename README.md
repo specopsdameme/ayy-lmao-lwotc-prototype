@@ -15,7 +15,7 @@ Note: THE MAIN DEVS HAVE NOTHING TO WITH THIS. I TAKE ALL RESPONSIBILITY FOR THI
 Not even close to ready. Some enemies are missing, tons of unupdated text, however the bare minimum is there.
 
 # Job list
-* Figure out the names for the rest of the enemmies. The ones left are:
+* Figure out the names for the rest of the enemies. The ones left are:
        
   * Drones
   * MEC Archer    
