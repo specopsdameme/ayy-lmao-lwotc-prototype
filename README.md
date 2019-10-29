@@ -39,7 +39,7 @@ Not even close to ready. Some enemies are missing, tons of unupdated text, howev
 
 * Evac doesn't translate
 
-* Evac is no longer hidden when unaviable for some reason
+* Evac is always visible for some reason
 
 # Contributions
 
