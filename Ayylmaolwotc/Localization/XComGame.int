@@ -27,7 +27,7 @@ m_strFacilityBody="Commander, we have successfully traced the location of a secr
 
 m_strBlackMarketBody="The Black Market has been successfully located, Commander. They seem willing to provide us with material support in exchange for supplies. They're also eager to trade supplies for any unused items we can spare."
 
-m_strIntroToPsiLabBody="Any Rookie can be trained as a powerful Psi Operative by staffing them in the Psi Lab. Staffing a scientist will decrease the time of all Psi Lab training projects."
+m_strIntroToPsiLabBody="Any MeatShield can be trained as a powerful Psi Operative by staffing them in the Psi Lab. Staffing a scientist will decrease the time of all Psi Lab training projects."
 
 m_strContinueTraining=GO TO PSI LAB
 m_strPsiTrainingCompleteHelp=Psi operatives can train additional abilities after they gain sufficient experience in the field.
