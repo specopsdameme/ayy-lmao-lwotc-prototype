@@ -1,6 +1,6 @@
 [XComGameState_LWOverhaulOptions]
-LWOverhaulTabName="LONG WAR 2"
-GrazeBandWidthMod="Graze Band"
+LWOverhaulTabName="LWOTC"
+GrazeBandWidthMod="Bullshit Band"
 GrazeBandWidthModTooltip="This determines how close a shot has to be to the exact to-hit in order to be counted as a graze"
 GrazeBandValue="Value: <XGParam:IntValue0>"
 PauseOnRecruitMod="Pause on Recruit"
@@ -466,7 +466,7 @@ m_strAlertLevel="ADVENT Str:<XGParam:IntValue0> (V:<XGParam:IntValue2> F:<XGPara
 m_strLiberatedRegion="Region Liberated"
 m_strStaffingPinText="S:<XGParam:IntValue0> I:<XGParam:IntValue1> R:<XGParam:IntValue2>"
 m_strStaffingPinTextMore="H:<XGParam:IntValue0>"
-m_strMonthlyRegionalIncome="+§<XGParam:IntValue0> (+§<XGParam:IntValue1>)"
+m_strMonthlyRegionalIncome="+ï¿½<XGParam:IntValue0> (+ï¿½<XGParam:IntValue1>)"
 
 [XComGameState_LWOutpostManager]
 LabelCQ_ResistanceManagement="Resistance Management"
@@ -484,8 +484,8 @@ m_strADVENTUnitSingular="Legion"
 m_strADVENTUnitPlural="Legions"
 
 m_strGlobalAlert="Global ADVENT Strength:"
-m_strGlobalInsurgency="• Global Resistance Threat:"
-m_strAvatarPenalty="• Avatar Progress Slowed By <XGParam:IntValue0/>%"
+m_strGlobalInsurgency="ï¿½ Global Resistance Threat:"
+m_strAvatarPenalty="ï¿½ Avatar Progress Slowed By <XGParam:IntValue0/>%"
 m_strThreatVeryLow="Low"
 m_strThreatLow="Guarded"
 m_strThreatMedium="Elevated"
@@ -643,8 +643,8 @@ m_strTurnSingular="Turn"
 m_strTurnPlural="Turns"
 m_strMinimumInfiltration="Requires <XGParam:IntValue0>% Infiltration"
 m_strYellowAlert="Enemies on High Alert"
-m_sAverageScatterText="± <XGParam:StrValue0/> Tiles"
-m_strBullet="•"
+m_sAverageScatterText="ï¿½ <XGParam:StrValue0/> Tiles"
+m_strBullet="ï¿½"
 
 m_strStripWeaponUpgrades=STRIP ALL WEAPON UPGRADES
 m_strStripWeaponUpgradesLower=Strip All Weapon Upgrades
