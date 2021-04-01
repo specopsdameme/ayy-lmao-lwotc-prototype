@@ -3250,14 +3250,10 @@ LocFlyOverText="Cool Under Pressure"
 
 [Slash_LW X2AbilityTemplate]
 LocFriendlyName="Slash"
-LocFlyOverText="THE ONLY THING I KNOW FOR REAL"
-
-[SwordSlice_LW X2AbilityTemplate]
 LocFlyOverText="Mind if I cut in?"
 
-[Fleche X2AbilityTemplate]
+[SwordSlice_LW X2AbilityTemplate]
 LocFlyOverText="WELCOME TO THE RICE FIELDS MOTHERFUCKER"
-
 
 [Reaper X2AbilityTemplate]
 LocFriendlyName="WASH AWAY THE ANGER"
