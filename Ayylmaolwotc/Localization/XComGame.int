@@ -842,14 +842,14 @@ RightAbilityTreeTitle="Defender"
 
 
 [LWS_Sharpshooter X2SoldierClassTemplate]
-DisplayName="Sharpshooter"
-ClassSummary="Our Sharpshooters engage enemy targets with pinpoint accuracy from extreme range. They may also be trained as designated marksmen, forgoing long-range capabilities for mobility."
-LeftAbilityTreeTitle="Sniper"
-RightAbilityTreeTitle="Marksman"
+DisplayName="FaZe Member"
+ClassSummary="Our Ex-Cod pros engage enemy targets with pinpoint accuracy from extreme range. They may also be trained as Quickscopers, forgoing long-range capabilities for mobility."
+LeftAbilityTreeTitle="Camper"
+RightAbilityTreeTitle="Quickscoper"
 
-+AbilityTreeTitles[0]="Sniper"
++AbilityTreeTitles[0]="Camper"
 +AbilityTreeTitles[1]=""
-+AbilityTreeTitles[2]="Marksman"
++AbilityTreeTitles[2]="Quickscoper"
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
 
@@ -3025,9 +3025,6 @@ LocFlyOverText="STILL LOBBIN' NADES, AND STILL SHREDDING!"
 [BulletShred X2AbilityTemplate]
 LocFlyOverText="GET REKT"
 
-[VolatileMix X2AbilityTemplate]
-LocFlyOverText="Bigger booms"
-
 [VanishingAct X2AbilityTemplate]
 LocFlyOverText="Wait, where did you go?"
 
@@ -3038,14 +3035,15 @@ LocFlyOverText="BOOM SHAKALAKA"
 ; Gunner Everything
 ; ================================================
 
-[Combatives X2AbilityTemplate]
-LocFlyOverText="NO U."
-
-
 
 [CyclicFire X2AbilityTemplate]
-LocFlyOverText="FUCK TRIGGER DISCIPLINE"
+LocFlyOverText="FUUUUUUCK YOUUUUUUUU"
 
+[CyclicFire2 X2AbilityTemplate]
+LocFlyOverText="AAAAAAAAAAAAAAAAAAAAA"
+
+[CyclicFire3 X2AbilityTemplate]
+LocFlyOverText="*Autistic screeching*"
 ; ================================================
 ; Psi Operative Abilities
 ; ================================================
@@ -3116,12 +3114,6 @@ LocFlyOverText="At least TRY to be useful"
 ; ================================================
 ; Sharpshooter Abilities
 ; ================================================
-
-[LWS_Sharpshooter X2SoldierClassTemplate]
-DisplayName="FaZe Member"
-ClassSummary="Our Ex-Cod pros engage enemy targets with pinpoint accuracy from extreme range. They may also be trained as Quickscopers, forgoing long-range capabilities for mobility."
-LeftAbilityTreeTitle="Camper"
-RightAbilityTreeTitle="Quickscoper"
 
 [Sharpshooter_LWS X2EncyclopediaTemplate]
 ListTitle="FaZe Class"
