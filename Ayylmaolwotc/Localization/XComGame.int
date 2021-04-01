@@ -2841,13 +2841,13 @@ strCharacterName="ADVENT Sticky Spammer"
 FriendlyName="ADVENT Grenade Launcher"
 
 [AdvRocketeerM1 X2CharacterTemplate]
-strCharacterName="ADVENT Trollier"
+strCharacterName="ADVENT Trolldier"
 
 [AdvRocketeerM2 X2CharacterTemplate]
-strCharacterName="ADVENT Advanced Trollier"
+strCharacterName="ADVENT Advanced Trolldier"
 
 [AdvRocketeerM3 X2CharacterTemplate]
-strCharacterName="ADVENT Elite Trollier"
+strCharacterName="ADVENT Elite Trolldier"
 
 [AdvRocketeerM1_RocketLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Rocket Launcher"
@@ -2865,16 +2865,16 @@ strCharacterName="ADVENT Shock Trooper"
 strCharacterName="ADVENT Adrenaline Junkie"
 
 [AdvVanguard X2CharacterTemplate]
-strCharacterName="Elite Rocketeer"
+strCharacterName="ADVENT Vanguard"
 
 [AdvScout X2CharacterTemplate]
 strCharacterName="ADVENT Scunt"
 
 [AdvGeneralM1 X2CharacterTemplate]
-strCharacterName="Important ADVENT dude"
+strCharacterName="Important ADVENT Dude"
 
 [AdvGeneralM2 X2CharacterTemplate]
-strCharacterName="Important ADVENT dude"
+strCharacterName="Important ADVENT Dude"
 
 
 ; ================================================
@@ -2899,20 +2899,20 @@ LocFlyOverText="Immune"
 [AdvPurifierFlamethrower X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 [AdvPurifierFlamethrowerM2 X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 
 [AdvPurifierFlamethrowerM3 X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 [CorpseAdventPurifier X2ItemTemplate]
