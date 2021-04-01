@@ -3189,7 +3189,7 @@ LocFlyOverText="Can you stop getting shot FOR 5 MINUTES"
 
 [LWS_Specialist X2SoldierClassTemplate]
 DisplayName="Nerd"
-ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. They also have significant chances to crack Hackerman jokes at the worst opportunities."
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high extreme hazing and *personality building* attempts by our senior operatives."
 LeftAbilityTreeTitle="Doctor Nerd"
 RightAbilityTreeTitle="Computer Nerd"
 
