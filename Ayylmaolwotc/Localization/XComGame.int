@@ -783,8 +783,9 @@ RightAbilityTreeTitle="Fireman"
 
 
 [LWS_Specialist X2SoldierClassTemplate]
-DisplayName="Nerd"
-ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. They also have significant chances to crack Hackerman jokes at the worst opportunities."
+DisplayName="
+"
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high extreme hazing and *personality building* attempts by our senior operatives."
 LeftAbilityTreeTitle="Medic"
 RightAbilityTreeTitle="Hacker"
 
@@ -869,7 +870,7 @@ RightAbilityTreeTitle="Breacher"
 
 [LWS_Shinobi X2SoldierClassTemplate]
 DisplayName="Weeb"
-ClassSummary="The Weeb serves as our primary scouting unit, studying a sword like a otaku studies the blade to deliver stealthy close-range attacks, because apparently some high ranking idiot decides that a concealable SMG is not stealthy enough, and have to give every stealth specialist in our employ a machete for shits and giggles."
+ClassSummary="The Weeb serves as our primary scouting unit, studying a sword like a otaku studies the \"superior nippon blade\" to deliver stealthy close-range attacks, because apparently some high ranking idiot decides that a concealable SMG is not stealthy enough, and have to give every infiltration specialist in our employ a cheap and rusty machete for shits and giggles."
 LeftAbilityTreeTitle="YOU CAN'T SEE ME"
 RightAbilityTreeTitle="Student of the Blade"
 
@@ -1330,14 +1331,14 @@ UnlockedDescription="Recovered from ADVENT /k/ommando Corpse: <XGParam:StrValue0
 
 [RenderAdventShieldbearerCorpse X2TechTemplate]
 DisplayName="Render ADVENT Shieldbearer Corpse"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Shieldbearer we should be able to recover 3 Alloys."
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Cockblocker we should be able to recover 3 Alloys."
 CodeName="Rotisserie"
 LongDescription="The rendering of this ADEVENT Shieldbearer was successful. R. Tygan."
 UnlockedDescription="Recovered from ADVENT Shieldbearer Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderAdventStunLancerCorpse X2TechTemplate]
 DisplayName="Render ADVENT SANIC Corpse"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Stun Lancer we should be able to recover 3 Alloys."
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT SANIC we should be able to recover 3 Alloys."
 CodeName="Barbecue"
 LongDescription="The rendering of this ADVENT Stun Lancer was successful. R. Tygan."
 UnlockedDescription="Recovered from ADVENT Stun Lancer Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
@@ -1365,7 +1366,7 @@ UnlockedDescription="Recovered from METAL GEAR Wreck: <XGParam:StrValue0/!Quanti
 
 [RenderAdventDroneWreck X2TechTemplate]
 DisplayName="Disassemble Drone Wreck"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Drone we should be able to recover 2 Alloys."
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Amazon Drone we should be able to recover 2 Alloys."
 CodeName="Masala"
 LongDescription="The disassembly of this ADVENT Drone was successful. R. Tygan."
 UnlockedDescription="Recovered from ADVENT Drone Wreck: <XGParam:StrValue0/!Quantity/> Alloys"
@@ -5306,7 +5307,7 @@ Description="Some enemies gain the Shredder ability, giving their weapons the ab
 [DarkEvent_HuntersInstinct X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Hunter's Instincts"
 SummaryText="Many Sneks and related species gain the Hunter's Instinct ability, granting bonus damage against flanked enemies."
-QuoteText="\"Massive gun-toting, poison-spitting intelligent snakes? This is what I signed up for? Fuck, XCOM aren't kidding when they said they'd guarantee a bodybag.\""
+QuoteText="\"Massive gun-toting, poison-spitting intelligent snakes? This is what I signed up for? Fuck, XCOM aren't kidding when they said they'd guarantee a liberated Earth or a bodybag.\""
 QuoteTextAuthor="- Anonymous Corporal"
 PreMissionText="Grants many ophidian enemies the Hunter's Instinct ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Hunter's Instincts)"
@@ -5319,16 +5320,16 @@ Description="Many ophidian enemies gain the Hunter's Instinct ability, granting 
 ; LR
 [DarkEvent_LightningReflexes X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Lightning Reflexes"
-SummaryText="Some Stun Lancers and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
-QuoteText="\"I really, really hate those fucking freaks.\""
+SummaryText="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
+QuoteText="\"I AM STILL ALIVE, YOU FUCKIN' AMA-ARGGGGH FUCK!\""
 QuoteTextAuthor="- Anonymous Gunnery Sergeant"
-PreMissionText="Grants some Stun Lancers and other enemies the Lightning Reflexes ability."
+PreMissionText="Grants some SANICs and other enemies the Lightning Reflexes ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Lightning Reflexes)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Lightning Reflexes)"
 
 [DarkEvent_LightningReflexes X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Lightning Reflexes)"
-Description="Some Stun Lancers and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
+Description="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
 
 ; CCS
 [DarkEvent_CloseCombatSpecialist X2DarkEventTemplate]
@@ -5368,7 +5369,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Cutthro
 
 [DarkEvent_Cutthroat X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Cutthroat)"
-Description="Stun Lancers and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
+Description="SANICs and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
 
 [DarkEvent_CombatAwareness X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Combat Awareness"
@@ -5381,7 +5382,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Combat 
 
 [DarkEvent_CombatAwareness X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Combat Awareness)"
-Description="ADVENT Sentries gain the Combat Awareness ability, granting them bonus defense and armor when in Ogrewatch."
+Description="ADVENT Campers gain the Combat Awareness ability, granting them bonus defense and armor when in Ogrewatch."
 
 [DarkEvent_IronSkin X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Iron Skin"
@@ -5399,7 +5400,7 @@ Description="ADVENT robotic units gain the Iron Skin ability, granting them dama
 [DarkEvent_TacticalSense X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Tactical Sense"
 SummaryText="Some enemy units gain the Tactical Sense ability, granting them 3 defense for every sighted XCOM or Resistance operative."
-QuoteText="\"Resistance Intel suggests the Ayyliens are creating a cadre specializing in COIN operations. Looks pretty well-trained.\""
+QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, that's probably that COIN carde our contact's been talking about.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemy units the Tactical Sense ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Tactical Sense)"
@@ -5412,7 +5413,7 @@ Description="Some enemy units gain the Tactical Sense ability, granting them bon
 [DarkEvent_Aggression X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Aggression"
 SummaryText="Some enemy units gain the Aggression ability, granting them bonus critical chances."
-QuoteText="\"I think we've made them really, *really* mad.\""
+QuoteText="\"I think we've made them really, *really* crazy mad.\""
 QuoteTextAuthor="- Anonymous Lance Corporal"
 PreMissionText="Grants some enemy units the Aggression ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Aggression)"
