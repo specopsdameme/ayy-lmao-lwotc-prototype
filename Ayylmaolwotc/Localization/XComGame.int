@@ -1256,20 +1256,20 @@ DisplayName="Render Pectoid Corpse"
 Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the sectoid we should be able to recover 3 Alloys."
 CodeName="Demiglace"
 LongDescription="The rendering of this Pectoid was successful. R. Tygan."
-UnlockedDescription="Recovered from Sectoid Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
+UnlockedDescription="Recovered from Pectoid Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderViperCorpse X2TechTemplate]
 DisplayName="Render Snek Corpse"
 Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the Viper we should be able to recover 3 Alloys."
 CodeName="Gumbo"
 LongDescription="The rendering of this Snek was successful. R. Tygan."
-UnlockedDescription="Recovered from Viper Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
+UnlockedDescription="Recovered from Snek Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderMutonCorpse X2TechTemplate]
 DisplayName="Render Dickhead Corpse"
 Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the Dickhead we should be able to recover 4 Alloys."
 CodeName="Grinder"
-LongDescription="The rendering of this Muton was successful. R. Tygan."
+LongDescription="The rendering of this Dickhead was successful. R. Tygan."
 UnlockedDescription="Recovered from Dickhead Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderArchonCorpse X2TechTemplate]
@@ -1678,20 +1678,6 @@ PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Damage)
 FriendlyName="Dark Event: Tactical Upgrades (Center Mass)"
 Description="Some enemy units do additional damage with their primary weapon."
 
-;; Infighter
-[DarkEvent_Infighter X2DarkEventTemplate]
-DisplayName="Tactical Upgrades: Infighter"
-SummaryText="ADVENT Stun Lancers gain the Infighter ability, which grants bonus dodge against nearby enemies."
-QuoteText="\"Keep those Stun Lancers somewhere beyond arm's length.\""
-QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants ADVENT Stun Lancers the Infighter ability."
-PostMissionSuccessText="Dark Event Countered: Tactical Upgrades (Infighter)"
-PostMissionFailureText="Failed to Counter Dark Event: Tactical Upgrades (Infighter)"
-
-[DarkEvent_Infighter X2HackRewardTemplate]
-FriendlyName="Dark Event: Tactical Upgrades (Infighter)"
-Description="ADVENT Stun Lancers gain the Infighter ability, which grants bonus dodge against nearby enemies."
-
 ;; Formidable
 [DarkEvent_Formidable X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Formidable"
@@ -1982,7 +1968,7 @@ Summary="+100% experience gained from kills."
 m_strRespecSoldierDialogText="Any promoted soldier can be retrained in their class to choose a new ability configuration, but they will be unavailable for combat during the training process. The training time goes up by multiple days for each rank the soldier has achieved, so high-ranking soldiers will be in training for some time. Do you want <XGParam:StrValue0/!UnitName/> to retrain their abilities?"
 
 
-
+;Psionic abilities
 ; just fix typo
 [Insanity X2AbilityTemplate]
 LocPromotionPopupText="<Bullet/> Insanity has a <Ability:SelfCooldown/> turn cooldown.<br/><Bullet/> Insanity requires a contest between the Psi Operative's Psi Strength stat, and the target's will.<br/><Bullet/> Insanity can disorient, stun, or mind control the target if it succeeds.<br/><Bullet/> Mechanical enemies are completely immune to Insanity.<br/>"
@@ -2649,7 +2635,7 @@ FriendlyName="Drone Electroshock"
 strCharacterName="Advent Gundam"
 
 [AdvMECArcherM1 X2CharacterTemplate]
-strCharacterName="MEC Archer"
+strCharacterName="Gundam Archer"
 
 [AdvMECArcher_WPN X2WeaponTemplate]
 FriendlyName="MEC MiniMag"
@@ -2658,7 +2644,7 @@ FriendlyName="MEC MiniMag"
 FriendlyName="Rocket Artillery"
 
 [AdvMECArcherM2 X2CharacterTemplate]
-strCharacterName="MEC Longbow"
+strCharacterName="Gundam Longbow"
 
 [ChryssalidSoldier X2CharacterTemplate]
 strCharacterName="Zergling Soldier"
@@ -2744,10 +2730,10 @@ strCharacterName="Dommy Snek"
 strCharacterName="Shy Snek"
 
 [NajaM2 X2CharacterTemplate]
-strCharacterName="Big Titty Shy Snek"
+strCharacterName="Shy Stalker Snek"
 
 [NajaM3 X2CharacterTemplate]
-strCharacterName="Dommy Shy Snek"
+strCharacterName="Yandere Shy Snek"
 
 [NajaM1_WPN X2WeaponTemplate]
 FriendlyName="Snek Sniper Rifle"
@@ -2762,10 +2748,10 @@ FriendlyName="Snek Sniper Rifle"
 strCharacterName="Tomboy Snek"
 
 [SidewinderM2 X2CharacterTemplate]
-strCharacterName="Big Titty Tomboy"
+strCharacterName="Washboard Tomboy Snek"
 
 [SidewinderM3 X2CharacterTemplate]
-strCharacterName="Dommmy Tomboy"
+strCharacterName="Big Buff Tomboy Snek"
 
 [SidewinderM1_WPN X2WeaponTemplate]
 FriendlyName="Tomboy Scramgun"
@@ -2792,7 +2778,7 @@ strCharacterName="ADVENT Shrek"
 FriendlyName="AutoMag"
 
 [AdvGunnerM2 X2CharacterTemplate]
-strCharacterName="ADVENT Heavy Shrek"
+strCharacterName="ADVENT Layered Shrek"
 
 [AdvGunnerM2_WPN X2WeaponTemplate]
 FriendlyName="AutoMag"
@@ -2828,7 +2814,7 @@ strCharacterName="ADVENT Demoman"
 FriendlyName="ADVENT Grenade Launcher"
 
 [AdvGrenadierM2 X2CharacterTemplate]
-strCharacterName="ADVENT Demokight"
+strCharacterName="ADVENT Demoknight"
 
 [AdvGrenadierM2_GrenadeLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Grenade Launcher"
@@ -2852,10 +2838,10 @@ strCharacterName="ADVENT Elite Trolldier"
 FriendlyName="ADVENT Rocket Launcher"
 
 [AdvSergeantM1 X2CharacterTemplate]
-strCharacterName="ADVENT Sergeant"
+strCharacterName="ADVENT Noob Herder"
 
 [AdvSergeantM2 X2CharacterTemplate]
-strCharacterName="ADVENT First Sergeant"
+strCharacterName="ADVENT Slavemaster"
 
 [AdvShockTroop X2CharacterTemplate]
 strCharacterName="ADVENT Shock Trooper"
@@ -2997,7 +2983,24 @@ FriendlyName="Ransomware Corpse"
 FriendlyNamePlural="Ransomware Corpses"
 BriefSummary="Remarkably, though the Ransomware's \"body\" is actually composed of millions of separate nanobots working together in harmony, it retains its singular form even in death.  The nanobots no longer appear to be functioning, but they remain tightly coupled through a surprisingly strong magnetic attraction."
 
+;
+; GENERAL ABILITIES
+;
+[HardTarget X2AbilityTemplate]
+LocFriendlyName="Can´t Touch Dis"
+LocFlyOverText="Can´t Touch Dis"
+LocLongDescription="Gain 5 dodge per enemy you can see, up to a maximum of +30."
+LocHelpText="Gain 5 dodge per enemy you can see, up to a maximum of +30."
+LocPromotionPopupText="<Bullet/> Gain 5 dodge per enemy you can see, up to a maximum of +30.<br/><Bullet/> Units visible at squadsight ranges do not confer bonus.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
 
+; LWOTC Needs Translation
+[Infighter X2AbilityTemplate]
+LocFriendlyName="Moonwalker"
+LocFlyOverText="Moonwalker"
+LocLongDescription="Gain <Ability:INFIGHTER_DODGE_BONUS/> dodge against attacks within four tiles."
+LocHelpText="Gain <Ability:INFIGHTER_DODGE_BONUS/> dodge against attacks within four tiles."
+LocPromotionPopupText="<Bullet/> Gain <Ability:INFIGHTER_DODGE_BONUS/> dodge against attacks within four tiles.<br/><Bullet/> Dodge bonus also applies to melee attacks.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
+; End Translation
 ; ================================================
 ; Grenadier Everything
 ; ================================================
@@ -3078,6 +3081,11 @@ LocFlyOverText="KAME HAME HAAAAAAAAAAAAA"
 [VoidRift X2AbilityTemplate]
 LocFlyOverText="ACTIVATE GOATSE MANEUVER"
 
+[MindMerge X2AbilityTemplate]
+LocFlyOverText="Ew...that´s disgusting. "
+
+[SoulMerge X2AbilityTemplate]
+
 ; ================================================
 ; Ranger Everything
 ; ================================================
@@ -3102,15 +3110,18 @@ LocFlyOverText="OH SHIT OH SHIT OH SHIT"
 
 
 
-
-
+[DeadeyeSnapShot X2AbilityTemplate]
+LocFlyOverText="Ow, did that hurt?"
+[DeadeyeDamage_SnapShot X2AbilityTemplate]
+LocFlyOverText="Ow, did that hurt?"
+[Deadeye X2AbilityTemplate]
+LocFlyOverText="Ow, did that hurt?"
 
 [TakeThis X2AbilityTemplate]
 LocLongDescription="Pass a spare pistol to an allied idiot."
 LocHelpText="Pass a spare pistol to a nearby allied idiot."
 LocPromotionPopupText="<Bullet/> Anytime you equip a pistol (of any technology level), you carry a spare conventional pistol that you can hand to any adjacent allied idiot who does not already have a pistol.<br/><Bullet/> The spare pistol does not impose a weight penalty on this soldier, but the idiot will incur a one-mobility penalty when receiving the sidearm.<br/><Bullet/> Note: This ability will not appear in your Tactical ability icons unless you can use it."
 LocFlyOverText="At least TRY to be useful"
-
 
 ; ================================================
 ; Sharpshooter Abilities
@@ -3120,6 +3131,9 @@ LocFlyOverText="At least TRY to be useful"
 ListTitle="FaZe Class"
 DescriptionTitle="FaZe Class"
 DescriptionEntry="Relying primarily on high-powered rifles to N0sc0pe hostile targets from long distances, FaZe members may specialize as a sniper capable of long-range ambushes, or as a mobile Quickscoper who can target enemies from just behind our front lines. Faze members are also equipped with the Holo-Targeter, a device used to designate targets for the rest of XCOM."
+
+[PrecisionShot X2AbilityTemplate]
+LocFlyOverText="Boom. Headshot."
 
 
 [SnapShot X2AbilityTemplate]
@@ -3269,7 +3283,9 @@ LocPromotionPopupText="<Bullet/> Blademaster deals a bonus +<Ability:Blademaster
 [Cutthroat X2AbilityTemplate]
 LocFriendlyName="RED SUN"
 
-
+[LostBladestormAttack X2AbilityTemplate]
+LocFriendlyName="FREE HUGS"
+LocFlyOverText="FREE HUGS"
 
 [BladestormAttack X2AbilityTemplate]
 LocFriendlyName="RULES OF NATURE"
@@ -3613,10 +3629,10 @@ LocPromotionPopupText="<Bullet/> The unit is so short the partial cover might as
 [LoneWolf X2AbilityTemplate]
 LocFriendlyName="Loser"
 LocFlyOverText="Loser"
-LocLongDescription="This unit is such a beta that it gains +10 aim and +10 defense when 7 or more tiles distant from any person to talk to."
-LocHelpText="Gain +10 aim and +10 defense when 7 or more tiles distant from any ally."
-LocPromotionPopupText="<Bullet/> Gain +10 aim and +10 defense when 7 or more tiles distant from any ally.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
-
+LocLongDescription="This unit is such a beta that it gains bonus Aim and Defense when at least <Ability:LONEWOLF_MIN_BONUS_TILES/> tiles distant from any person to talk to, with a maximum of +<Ability:LONEWOLF_AIM_BONUS/>/+<Ability:LONEWOLF_DEF_BONUS/> at <Ability:LONEWOLF_MIN_DIST_TILES/>+ tiles."
+LocHelpText="Gain bonus Aim and Defense when at least <Ability:LONEWOLF_MIN_BONUS_TILES/> tiles distant from any ally, with a maximum of +<Ability:LONEWOLF_AIM_BONUS/>/+<Ability:LONEWOLF_DEF_BONUS/> at <Ability:LONEWOLF_MIN_DIST_TILES/>+ tiles."
+LocPromotionPopupText="<Bullet/> Gain +<Ability:LONEWOLF_AIM_PER_TILE/> Aim and +<Ability:LONEWOLF_DEF_PER_TILE/> Defense for each tile of distance between this soldier and the nearest ally, starting at <Ability:LONEWOLF_MIN_BONUS_TILES/> tiles distant.<br/><Bullet/> Bonuses cap at +<Ability:LONEWOLF_AIM_BONUS/> Aim, +<Ability:LONEWOLF_DEF_BONUS/> Defense when <Ability:LONEWOLF_MIN_DIST_TILES/> or more tiles from the nearest ally.<br/><Bullet/> This ability does not provide defensive bonuses if the unit is disoriented, stunned, panicking, on fire or otherwise impaired."
+; End Translation
 [Overwatch X2AbilityTemplate]
 [Overwatch X2AbilityTemplate]
 LocFriendlyName="Ogrewatch"
@@ -4966,6 +4982,9 @@ SummaryText="ADVENT invests in improving their battle gear, adding armor to some
 
 [DarkEvent_ViperRounds X2DarkEventTemplate]
 SummaryText="ADVENT incorporates Viper poison into their weaponry, giving some ADVENT soldiers poisonous rounds."
+QuoteText="\"So, do they milk them, or...?\""
+QuoteTextAuthor="- Unidentified Resistance member"
+
 
 [DarkEvent_RapidResponse X2DarkEventTemplate]
 SummaryText="The Ayyliens improve their threat response procedures, increasing the rate that reinforcements arrive on some missions."
@@ -5248,17 +5267,17 @@ Description="Some enemy units do additional damage with their primary weapon."
 
 ;; Infighter
 [DarkEvent_Infighter X2DarkEventTemplate]
-DisplayName="Tactical Upgrades: Infighter"
-SummaryText="ADVENT SANICs gain the Infighter ability, which grants bonus dodge against nearby enemies."
-QuoteText="\"Keep those Stun Lancers somewhere between arm's length and your weapon systems' maximum effective range.\""
+DisplayName="Tactical Upgrades: Moonwalker"
+SummaryText="ADVENT SANICs gain the Moonwalker ability, which grants bonus dodge against nearby enemies."
+QuoteText="\"Who showed the Ayyliens those old Michael Jackson clips?!.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants ADVENT SANICs the Infighter ability."
-PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Infighter)"
-PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Infighter)"
+PreMissionText="Grants ADVENT SANICs the Moonwalker ability."
+PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Moonwalker)"
+PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Moonwalker)"
 
 [DarkEvent_Infighter X2HackRewardTemplate]
-FriendlyName="Dank Event: Tactical Upgrades (Infighter)"
-Description="ADVENT SANICs gain the Infighter ability, which grants bonus dodge against nearby enemies."
+FriendlyName="Dank Event: Tactical Upgrades (Moonwalker)"
+Description="ADVENT SANICs gain the Moonwalker ability, which grants bonus dodge against nearby enemies."
 
 ;; Formidable
 [DarkEvent_Formidable X2DarkEventTemplate]
@@ -5471,13 +5490,13 @@ LocFriendlyName="Aryan Fellow Humans"
 LocLongDescription="Some Faceless units have improved stats."
 
 [DarkEvent_HardTarget X2DarkEventTemplate]
-DisplayName="Tactical Upgrades: Hard Target"
-SummaryText="Some ayylien units gain the Hard Target ability, granting bonus dodge."
+DisplayName="Tactical Upgrades: Can´t Touch Dis"
+SummaryText="Some ayylien units gain the Can´t Touch Dis ability, granting bonus dodge."
 QuoteText="\" The ayylien's Matrix rewatch has turned into a disaster for us. \""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants some Ayylien units the Hard Target ability."
-PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Hard Target)"
-PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Hard Target)"
+PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Can´t Touch Dis)"
+PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Can´t Touch Dis)"
 
 [DarkEvent_Shadowstep X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Shadowstep"
@@ -6219,7 +6238,7 @@ BriefSummary="Despite his fixation on Psionic power, even the Edgelord Warlock c
 
 [TheLost X2SitRepTemplate]
 FriendlyName="Shitposters"
-Description="Shitposters are known to be present in the surrounding area. Exercise restraints when using explosives."
+Description="Shitposters are known to be present in the surrounding area. Exercise restraints when using explosives. Or not."
 
 [TheHorde X2SitRepTemplate]
 FriendlyName="The Horde"
@@ -6348,7 +6367,7 @@ AlertString="ADVENT Mall Ninja"
 DisplayName="ADVENT SANIC Autopsy"
 Summary="The ADVENT SANIC is commonly seen going fast and quelling disturbances throughout the world. Their unique stun lance could be adapted into a weapon our Rangers are already training to use."
 CodeName="Chaplain"
-LongDescription="On both the physical and genetic level, the ADVENT SANICs are nearly identical to the Mall Ninjas our forces regularly see in combat. However, a minor yet crucial adjustment to the muscle fiber density of the Lancer improves both agility and overall survivability. Equipped with non-lethal weapons capable of easily disabling human targets, these Lancers were first deployed during the earliest days following ADVENT's establishment of the city centers, when civil unrest was a more common problem than outright resistance. In studying their usage and deployment, this raised an interesting question - if the SANICs were among the first ADVENT forces deployed, and their survivability is somewhat higher than that of the standard Mall Ninja - did the ayyliens consciously reduce the Mall Ninja's strength based on their assessment of human combat readiness? This would imply a system of rapid genetic modification beyond what I had previously imagined the ayyliens were capable of. It would also demonstrate a degree of \"genetic frugality\" that I would have previously assumed was irrelevant to the ayyliens, based on the variety of unusual experiments they've conducted. R. Tygan."
+LongDescription="On both the physical and genetic level, the ADVENT SANICs are nearly identical to the Mall Ninjas our forces regularly see in combat. However, a minor yet crucial adjustment to the muscle fiber density of the Lancer improves both agility and overall survivability. Equipped with non-lethal weapons capable of easily disabling human targets, SANICs were first deployed during the earliest days following ADVENT's establishment of the city centers, when civil unrest was a more common problem than outright resistance. In studying their usage and deployment, this raised an interesting question - if the SANICs were among the first ADVENT forces deployed, and their survivability is somewhat higher than that of the standard Mall Ninja - did the ayyliens consciously reduce the Mall Ninja's strength based on their assessment of human combat readiness? This would imply a system of rapid genetic modification beyond what I had previously imagined the ayyliens were capable of. It would also demonstrate a degree of \"genetic frugality\" that I would have previously assumed was irrelevant to the ayyliens, based on the variety of unusual experiments they've conducted. R. Tygan."
 AlertString="ADVENT SANIC"
 
 [AutopsyAdventShieldbearer X2TechTemplate]
@@ -6394,13 +6413,13 @@ LongDescription="Despite having reviewed both reconnaissance footage and eyewitn
 AlertString="Ransomware"
 
 [ChosenAssassinWeapons X2TechTemplate]
-DisplayName="Assassin Weapons"
+DisplayName="Edgy Weapons"
 Summary="The Edgelord Assassin proved deadly with both her sword and her shotgun, and both will no doubt be valuable to our efforts.  However, I believe the sword, conceivably forged by the Elders own hands, to be the true asset here."
 CodeName="Hanzo"
 LongDescription="Having recovered both of the Edgelord Assassin's weapons from the field, a shotgun and a modular sword, I must admit I am intrigued by the advances the Ayyliens have managed to craft into these otherwise conventional weapons.\n\nThe shotgun, used primarily as a secondary weapon by the Elders' Assassin, is elegant in its simplicity and adherence to a singular purpose. Built upon an advanced composite frame, in close quarters the unique design is nearly unmatched by any other projectile weapon. During repeated field trials, the fully enclosed Magnetic Ordnance Reduction System consistently delivered a tightly patterned array of alloy fragments capable of penetrating all but the most unyielding of targets.\n\nThe Assassin's prized sword is something else entirely, and may be among the more unique and perhaps important weapons we have ever recovered. Despite attempts at nondestructive analysis of the sword's composition, including variations on X-ray fluorescence, I have yet to make any significant progress towards identifying the material in question. As it stands, we know only that the sword is forged of a non-terrestrial metallic element held in tight suspension by Psionic energy that is itself contained by forces unknown. By all accounts, this weapon is a prize for both the warrior and the scholar alike. -R. Tygan."
 
 [ChosenHunterWeapons X2TechTemplate]
-DisplayName="Hunter Weapons"
+DisplayName="1337 Camper Weapons"
 Summary="The prized weapon of the Edgelord Hunter, this rifle was no doubt responsible for countless assassinations in the field. Through our research, we will see whether credit truly goes to the weapon or the one who wielded it."
 CodeName="Elysium"
 LongDescription="Aside from the Elders' Assassin, from what I have seen there is none other among the Ayyliens who valued their weapon as dearly as the Edgelord Hunter, and perhaps justifiably so. Visually striking for its lean, sleek appearance, this prized rifle is a testament to the Ayyliens' true potential in refining a system down to its purest form.\n\nAt its core, the Hunter's rifle is a magnetic weapon, although an as-of-yet unknown material used in its barrel provides a substantial increase to the kinetic projectiles' velocity without the added requirement of additional power that would normally accompany such an improvement.\n\nCritical to the weapon's effectiveness is an advanced targeting system integrated into the rifle's scope, which I discovered to be independently powered by one of the smallest Elerium-based power cells I have ever encountered. And while I have no doubt that the Hunter was a skilled marksman in his own right, I am equally confident that the ballistic computer provided here will make even the most average among our troops look heroic. -R. Tygan." 
@@ -6549,7 +6568,7 @@ DisplayDescription="The Fellow Human is a towering monstrosity with high surviva
 
 [Viper X2MPCharacterTemplate]
 DisplayName="Snek"
-DisplayDescription="The Snek is an agile and lethal ayylien unit, generally fit for hit-and-run tactics. Sneks can use their Tongue Pull ability to yank units out of cover, and then use Bind and Crush to incapacitate them."
+DisplayDescription="The Snek is an agile and lethal ayylien unit, generally fit for hit-and-run tactics. Sneks can use their Tongue Pull ability to yank units out of cover, and then have steamy sex with them."
 
 [Muton X2MPCharacterTemplate]
 DisplayName="Dickhead"
@@ -6646,6 +6665,7 @@ TraitDescription ="Chance to panic when encountering an enemy Pectoid."
 [FearOfVipers X2TraitTemplate]
 TraitFriendlyName="Fear of Sneks"
 TraitDescription="Chance to panic when encountering an enemy Snek."
+TraitQuotes[0]="\"I DON´T HAVE A FETISH!\""
 
 [FearOfMissedShots X2TraitTemplate]
 TraitFriendlyName="Fear of Missed Shots"
