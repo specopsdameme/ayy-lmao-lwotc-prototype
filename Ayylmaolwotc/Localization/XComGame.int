@@ -1905,6 +1905,15 @@ PostMissionFailureText="Failed to Counter Dark Event: Greater Faceless"
 FriendlyName="Dark Event: Greater Faceless"
 Description="The aliens deploy a stronger and deadlier Faceless unit."
 
+[DarkEvent_NewConstruction X2DarkEventTemplate]
+DisplayName="New Construction"
+SummaryText="The Ayyliens step up their construction efforts, reducing the Ayylien Facility counter by <XGParam:StrValue0/!Quantity/>."
+QuoteText="\"This facility will be a job creator like we've never seen since 9/11.\""
+QuoteTextAuthor="- The Speaker"
+PreMissionText="Reduces the Ayylien Facility counter by <XGParam:StrValue0/!Quantity/>"
+PostMissionSuccessText="Dank Event Countered: New Construction"
+PostMissionFailureText="Failed to Counter Dank Event: New Construction"
+
 [GreaterFacelessStatImprovements X2AbilityTemplate]
 LocFriendlyName="Greater Faceless"
 LocLongDescription="Some Faceless units have improved stats."
