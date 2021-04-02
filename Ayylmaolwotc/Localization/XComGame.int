@@ -194,7 +194,7 @@ LocPromotionPopupText="<Bullet/> Activate so your next use of the Flammenwerfer 
 
 [Firestorm X2AbilityTemplate]
 LocFriendlyName="Firestorm"
-LocFlyOverText="Firestorm"
+LocFlyOverText="THIS GIRL IS ON FIRE"
 LocLongDescription="Once per battle, attack all units in a complete circle around the soldier's position. Also grants immunity to fire damage."
 LocHelpText="Spray fire in a complete circle around your position."
 LocPromotionPopupText="<Bullet/> This will light fires and do fire damage to all enemies in a circle around the soldier's position, doing +<ABILITY:FIRESTORM_DAMAGE_BONUS_LW> bonus damage over regular Flammenwerfer attacks.<br/><Bullet/> Firestorm also grants immunity to fire damage.<br/><Bullet/> Requires one action point and will end the soldier's turn when used.<br/><Bullet/> Usable once per battle.<br/><Bullet/> It is not recommended the soldier uses Firestorm on rooftops."
@@ -236,7 +236,7 @@ LocPromotionPopupText="<Bullet/> The range of your rockets is increased by 6 til
 
 [BunkerBuster X2AbilityTemplate]
 LocFriendlyName="Bunker Buster"
-LocFlyOverText="Bunker Buster"
+LocFlyOverText="REDUCE THAT BUILDING TO ASHES"
 LocHelpText="Fire a Bunker Buster. <Ability:ROCKETSCATTER/>"
 LocLongDescription="Fire a special rocket that destroys buildings and other objects in the environment."
 LocPromotionPopupText="<Bullet/> Fire a special rocket with a large area of effect that does moderate damage to enemies but huge damage to buildings, vehicles and other objects in the environment.<br/><Bullet/> Requires both actions and usable only once per mission.<br/>"
@@ -281,7 +281,7 @@ LocFlyOverText="Gib mec"
 
 [BuffEnemy_FullOverride X2HackRewardTemplate]
 FriendlyName="Overdrive"
-Description="Your Incompetence will increase this target's Aim and Defense stats."
+Description="Your incompetence will increase this target's Aim and Defense stats."
 
 [GreaterShutdownRobot X2HackRewardTemplate]
 FriendlyName="Greater Shutdown"
@@ -396,6 +396,7 @@ LocLongDescription="Using your Holotargeter no longer automatically ends your tu
 LocFlyOverText="SHOOT THESE FUCKERS RIGHT HERE"
 
 [AlphaMikeFoxtrot X2AbilityTemplate]
+LocFriendlyName="Adios, Mother Fucker"
 
 ;;;;;;;;;;;;;;;;;;;;  ASSAULT ABILITIES ;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -549,7 +550,7 @@ TacticalText="<Bullet/> Powered Shadowkeeper's strength is comparable to a Plasm
 FriendlyName="Boomstick"
 FriendlyNamePlural="Boomsticks"
 BriefSummary="A powerful, if short-ranged, secondary weapon."
-TacticalText="<Bullet/> Adaptation of concealable pre-invasion weaponry.<br/><Bullet/> Two shots per mission without upgrades."
+TacticalText="<Bullet/> An adaptation of a concealable pre-invasion weaponry.<br/><Bullet/> Two shots per mission without upgrades."
 
 
 [SawedOffShotgun_MG X2WeaponTemplate]
@@ -770,7 +771,7 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 
 [LWS_Technical X2SoldierClassTemplate]
 DisplayName="Technical"
-ClassSummary="Our Technicals are trained to use certain heavy weaponry, the rocket launcher and flamethrower, to provide critical support during firefights."
+ClassSummary="With liberal usage of Confucus enlightenment and *extreme battlefield meditation*, our Technicals are trained to use certain heavy weaponry, the rocket launcher and flammenwerfer, to provide critical but ultimately limited support during firefights, because apparently nobody has ever heard of the M3 MAAWS in their entire lives and we're stuck with these shitty gauntlets. Thanks, Shen."
 LeftAbilityTreeTitle="Rocketeer"
 RightAbilityTreeTitle="Fireman"
 
@@ -783,7 +784,7 @@ RightAbilityTreeTitle="Fireman"
 
 [LWS_Specialist X2SoldierClassTemplate]
 DisplayName="Nerd"
-ClassSummary="Operating some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for combat or field medic duty."
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high amount of extreme hazing and *personality building* attempts by our senior operatives."
 LeftAbilityTreeTitle="Medic"
 RightAbilityTreeTitle="Hacker"
 
@@ -798,7 +799,7 @@ RightAbilityTreeTitle="Hacker"
 
 [LWS_Grenadier X2SoldierClassTemplate]
 DisplayName="Grenadier"
-ClassSummary="Serving as our demolitions experts, the Grenadiers provide heavy ordnance delivery whenever and wherever we need it. They may also specialize in support grenades to protect our troops and disable our enemies."
+ClassSummary="Serving as our *other* demolitions experts, Grenadiers provide heavy ordnance delivery whenever and wherever we need someone to go through the Boston Marathon Experience. They may also specialize in support grenades to protect our troops and disable our enemies. Unfortunately, this also means that they are quite dependent on their equipment, thus each and everyone of them are as fat and slow as a fucking snail."
 LeftAbilityTreeTitle="Boomer"
 RightAbilityTreeTitle="Support"
 
@@ -814,7 +815,7 @@ RightAbilityTreeTitle="Support"
 
 [LWS_Gunner X2SoldierClassTemplate]
 DisplayName="Gunner"
-ClassSummary="The Gunner is trained to use heavy automatic weapons, able to cover the squad with suppressive fire or inflict significant damage in direct attacks."
+ClassSummary="The Gunner is trained to use a variety of squad support weapons, able to cover the squad with suppressive fire or inflict significant damage in direct attacks. Their close exposure to the abominations Shen calls a \"Cannon\" often makes some of them going insane after claiming they have found the power of God and-or the upper limit of dakka through their LMGs."
 LeftAbilityTreeTitle="SAW Gunner"
 RightAbilityTreeTitle="Machinegunner"
 
@@ -829,7 +830,7 @@ RightAbilityTreeTitle="Machinegunner"
 
 [LWS_Ranger X2SoldierClassTemplate]
 DisplayName="Ranger"
-ClassSummary="The Ranger is the master of the rifle and may be trained to use it in offensive and defensive capacities."
+ClassSummary="The backbone of any squad and fireteam, Rangers are masters of the rifle and may be trained to use it in offensive and defensive capacities. Their sawed-off secondary is also useful in CQC or HVT removal situations. The only true dependable classification in XCOM, the rest are fucking incompetent regardless of what you do."
 LeftAbilityTreeTitle="Infantry"
 RightAbilityTreeTitle="Defender"
 
@@ -843,7 +844,7 @@ RightAbilityTreeTitle="Defender"
 
 [LWS_Sharpshooter X2SoldierClassTemplate]
 DisplayName="FaZe Member"
-ClassSummary="Our Ex-Cod pros engage enemy targets with pinpoint accuracy from extreme range. They may also be trained as Quickscopers, forgoing long-range capabilities for mobility."
+ClassSummary="Our ex-COD players engage enemy targets with pinpoint accuracy from extreme range (actual accuracy and general competency varies). They may also be trained as designated quickscopers, forgoing long-range capabilities for mobility. The holospotter can also aid in their mission by marking HVTs and general targets, but we all know the squad's gonna miss them all regardless."
 LeftAbilityTreeTitle="Camper"
 RightAbilityTreeTitle="Quickscoper"
 
@@ -855,7 +856,7 @@ RightAbilityTreeTitle="Quickscoper"
 
 [LWS_Assault X2SoldierClassTemplate]
 DisplayName="Assault"
-ClassSummary="The Assault serves as our primary close range unit, able to push in close and hold the line."
+ClassSummary="The Assault serves as our primary close range unit, able to push in close and disrupt enemy lines. The backup Arc Thrower can also be used to support fellow teammates, control a firefight, and cause involuntary cheesy electricity-related taunts. However, their Leeroy Jenkins tendencies tend to leave them exposed and dead before they manage to regroup with the rest of the squad."
 LeftAbilityTreeTitle="Raider"
 RightAbilityTreeTitle="Breacher"
 
@@ -868,22 +869,22 @@ RightAbilityTreeTitle="Breacher"
 
 [LWS_Shinobi X2SoldierClassTemplate]
 DisplayName="Weeb"
-ClassSummary="The Weeb serves as our primary scouting unit, using a superior nippon sword to deliver stealthy close-range attacks."
-LeftAbilityTreeTitle="YOU CAN"T SEE ME"
+ClassSummary="The Weeb serves as our primary scouting unit, studying a \"superior nippon blade folded 100 times\" (trademarked, all rights reserved) to deliver stealthy close-range attacks, because apparently some high ranking idiot decides that a concealable SMG is not stealthy enough, and have to give every infiltration specialist in our employ a cheap rusty matchete for shits and giggles."
+LeftAbilityTreeTitle="YOU CAN'T SEE ME"
 RightAbilityTreeTitle="Student of the Blade"
 
-+AbilityTreeTitles[0]="YOU CAN"T SEE ME"
++AbilityTreeTitles[0]="YOU CAN'T SEE ME"
 +AbilityTreeTitles[1]=""
 +AbilityTreeTitles[2]="Student of the Blade"
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
 
 [LW_RebelSoldier X2SoldierClassTemplate]
-DisplayName="Meatshield"
+DisplayName="Slave"
 
 ;; CHARACTER TEMPLATES
 [ResistanceMEC X2CharacterTemplate]
-strCharacterName="Resistance MEC"
+strCharacterName="Resistance Autobot"
 
 ;; REWARD TEMPLATES
 [Reward_Rebel X2RewardTemplate]
@@ -958,7 +959,7 @@ ObjectiveTextPools[0]="KILL EVERY LAST ONE OF THEM"
 ObjectiveTextPools[0]="Mark and recover ADVENT crates"
 ObjectiveTextPools[1]="KILL EVERY LAST ONE OF THEM"
 ObjectiveTextPools[2]="Extract all XCOM soldiers"
-ObjectiveTextPools[3]="OR: Eliminate all remaining hostile targets"
+ObjectiveTextPools[3]="OR: Kill everything that fucking moves"
 
 [DefaultRecover_LW X2MissionNarrativeTemplate]
 ObjectiveTextPools[0]="KILL EVERY LAST ONE OF THEM"
@@ -1017,7 +1018,7 @@ ObjectiveTextPools[2]="Extract all XCOM soldiers"
 
 [DefaultAdventFacilityPsiGate_LW X2MissionNarrativeTemplate]
 ObjectiveTextPools[0]="Track the Codex's point of origin"
-ObjectiveTextPools[1]="Neutralize all hostile agents defending the Psionic Gate"
+ObjectiveTextPools[1]="Kill everything defending the Psionic Gate"
 ObjectiveTextPools[2]="Capture the Psionic Gate Device"
 ObjectiveTextPools[3]="Extract all XCOM soldiers"
 
@@ -1121,20 +1122,20 @@ ObjectiveTextPools[0]="Find the Edgelord in their stronghold"
 
 [ChosenShowdown_Assassin X2MissionTemplate]
 DisplayName="Defeat Edgelord Assassin"
-Briefing="Defeat Edgelord Assassin"
+Briefing="Waste the Edgelord Assassin"
 PostMissionType="Edgelord Showdown"
 BriefingImage="img:///UILibrary_Common.Xcom_default"
 ObjectiveTextPools[0]="Destroy the Chosen Assassin"
 
 [ChosenShowdown_Warlock X2MissionTemplate]
 DisplayName="Defeat Edgelord Warlock"
-Briefing="Defeat Edgelord Warlock"
+Briefing="Waste the Edgelord Warlock"
 PostMissionType="Edgelord Showdown"
 ObjectiveTextPools[0]="Destroy the Edgelord Warlock"
 
 [ChosenShowdown_Hunter X2MissionTemplate]
 DisplayName="Defeat Edgelord Hunter"
-Briefing="Defeat Edgelord Hunter"
+Briefing="Waste the Edgelord Hunter"
 PostMissionType="Edgelord Showdown"
 [MissionSource_LWSGenericMissionSource X2MissionSourceTemplate]
 MissionPinLabel="LWS Overhaul Generic Mission"
@@ -1241,7 +1242,7 @@ HairTriggerFreeAction="Hair Trigger: Aww Yiss!"
 DisplayName="Big Black Dickhead Autopsy"
 CodeName="Bluton"
 Summary="This behemoth is different enough from other Mutons that it merits a specific investigation."
-LongDescription="Central Officer Bradford has indicated that X-COM had intelligence reports of an elite form of muton that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it is more able to recognize complex patterns and process information quickly in combat situations. R. Tygan."
+LongDescription="Central Officer Bradford has indicated that XCOM had intelligence reports of an elite form of Dickhead that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it is more able to recognize complex patterns and process information quickly in combat situations. Additionally, the cadaver of this subject also appears to have several cybernetic endoskeletons to boost the already powerful genetic modifications of this subject, some of which might might be useful for our weapon developments. I intend to let Shen investigate as to how to effectively use such contractions, for my knowledge of prosthetics are far inferior to hers. R. Tygan."
 AlertString="Big Black Dickhead"
 
 
@@ -1329,14 +1330,14 @@ UnlockedDescription="Recovered from ADVENT /k/ommando Corpse: <XGParam:StrValue0
 
 [RenderAdventShieldbearerCorpse X2TechTemplate]
 DisplayName="Render ADVENT Shieldbearer Corpse"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Shieldbearer we should be able to recover 3 Alloys."
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Cockblocker we should be able to recover 3 Alloys."
 CodeName="Rotisserie"
 LongDescription="The rendering of this ADEVENT Shieldbearer was successful. R. Tygan."
 UnlockedDescription="Recovered from ADVENT Shieldbearer Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderAdventStunLancerCorpse X2TechTemplate]
 DisplayName="Render ADVENT SANIC Corpse"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Stun Lancer we should be able to recover 3 Alloys."
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT SANIC we should be able to recover 3 Alloys."
 CodeName="Barbecue"
 LongDescription="The rendering of this ADVENT Stun Lancer was successful. R. Tygan."
 UnlockedDescription="Recovered from ADVENT Stun Lancer Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
@@ -1364,7 +1365,7 @@ UnlockedDescription="Recovered from METAL GEAR Wreck: <XGParam:StrValue0/!Quanti
 
 [RenderAdventDroneWreck X2TechTemplate]
 DisplayName="Disassemble Drone Wreck"
-Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Drone we should be able to recover 2 Alloys."
+Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Amazon Drone we should be able to recover 2 Alloys."
 CodeName="Masala"
 LongDescription="The disassembly of this ADVENT Drone was successful. R. Tygan."
 UnlockedDescription="Recovered from ADVENT Drone Wreck: <XGParam:StrValue0/!Quantity/> Alloys"
@@ -1415,7 +1416,7 @@ PreMissionText="Adds <XGParam:StrValue0/!Quantity/> to the ADVENT CALENDAR"
 [DarkEvent_HavenInfiltration X2DarkEventTemplate]
 DisplayName="Haven Infiltrators"
 SummaryText="The aliens send Faceless to infiltrate our Havens."
-QuoteText="\"That new guy, Johnson, seems a little too eager to please.\""
+QuoteText="\"That FNG, Johnson, seems a little too eager to please.\""
 QuoteTextAuthor="- Unidentified Resistance member"
 PreMissionText="Greater chance of newly recruited Resistance members being Faceless"
 PostMissionSuccessText="Dark Event Countered: Haven Infiltrators"
@@ -2734,7 +2735,7 @@ BriefSummary="These Ayyliens sit atop the Dickhead internal hierarchy. Unlike Vi
 
 
 [ViperM2_LW X2CharacterTemplate]
-strCharacterName="Big titty Snek"
+strCharacterName="Big Titty Snek"
 
 [ViperM3_LW X2CharacterTemplate]
 strCharacterName="Dommy Snek"
@@ -2743,10 +2744,10 @@ strCharacterName="Dommy Snek"
 strCharacterName="Shy Snek"
 
 [NajaM2 X2CharacterTemplate]
-strCharacterName="Big titty shy Snek"
+strCharacterName="Big Titty Shy Snek"
 
 [NajaM3 X2CharacterTemplate]
-strCharacterName="Dommy shy Snek"
+strCharacterName="Dommy Shy Snek"
 
 [NajaM1_WPN X2WeaponTemplate]
 FriendlyName="Snek Sniper Rifle"
@@ -2821,31 +2822,31 @@ strCharacterName="1337 Camper"
 FriendlyName="ADVENT Mag Rifle"
 
 [AdvGrenadierM1 X2CharacterTemplate]
-strCharacterName="ADVENT Engineer"
+strCharacterName="ADVENT Demoman"
 
 [AdvGrenadierM1_GrenadeLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Grenade Launcher"
 
 [AdvGrenadierM2 X2CharacterTemplate]
-strCharacterName="ADVENT Grenadier"
+strCharacterName="ADVENT Demokight"
 
 [AdvGrenadierM2_GrenadeLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Grenade Launcher"
 
 [AdvGrenadierM3 X2CharacterTemplate]
-strCharacterName="ADVENT Heavy Grenadier"
+strCharacterName="ADVENT Sticky Spammer"
 
 [AdvGrenadierM3_GrenadeLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Grenade Launcher"
 
 [AdvRocketeerM1 X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Trolldier"
 
 [AdvRocketeerM2 X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Advanced Trolldier"
 
 [AdvRocketeerM3 X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Elite Trolldier"
 
 [AdvRocketeerM1_RocketLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Rocket Launcher"
@@ -2860,19 +2861,19 @@ strCharacterName="ADVENT First Sergeant"
 strCharacterName="ADVENT Shock Trooper"
 
 [AdvCommando X2CharacterTemplate]
-strCharacterName="ADVENT Commando"
+strCharacterName="ADVENT Adrenaline Junkie"
 
 [AdvVanguard X2CharacterTemplate]
-strCharacterName="Elite Rocketeer"
+strCharacterName="ADVENT Vanguard"
 
 [AdvScout X2CharacterTemplate]
-strCharacterName="ADVENT Scout"
+strCharacterName="ADVENT Scunt"
 
 [AdvGeneralM1 X2CharacterTemplate]
-strCharacterName="Important ADVENT dude"
+strCharacterName="Important ADVENT Dude"
 
 [AdvGeneralM2 X2CharacterTemplate]
-strCharacterName="Important ADVENT dude"
+strCharacterName="Important ADVENT Dude"
 
 
 ; ================================================
@@ -2897,20 +2898,20 @@ LocFlyOverText="Immune"
 [AdvPurifierFlamethrower X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 [AdvPurifierFlamethrowerM2 X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 
 [AdvPurifierFlamethrowerM3 X2AbilityTemplate]
 LocFriendlyName="Flammenwerfer"
 LocLongDescription="The Flammenwerfer werfs flammen in a wide but short cone."
-LocHelpText="The Flammenwerfer F flammen in a wide but short cone."
+LocHelpText="The Flammenwerfer werfs flammen in a wide but short cone."
 LocFlyOverText="Kaen's fault"
 
 [CorpseAdventPurifier X2ItemTemplate]
@@ -3187,7 +3188,7 @@ LocFlyOverText="Can you stop getting shot FOR 5 MINUTES"
 
 [LWS_Specialist X2SoldierClassTemplate]
 DisplayName="Nerd"
-ClassSummary="Operating some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for combat or field medic duty."
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high amount of extreme hazing and *personality building* attempts by our senior operatives."
 LeftAbilityTreeTitle="Doctor Nerd"
 RightAbilityTreeTitle="Computer Nerd"
 
@@ -4330,7 +4331,7 @@ m_strNewRecord="**wow good jorb**"
 m_sAlienTurn="Muffled \"AYY LMAO\" in the distance"
 m_sTheLostTurn="SHITPOSTING INTENSIFIES"
 m_sSpecialTurn="RULER BULLSHIT"
-m_sChosenTurn="EDGELORD ACTION"
+m_sChosenTurn="Swiggity Swooty the Edgelord's comin' for that booty"
 
 
 [XComGame.UIShellDifficulty]
@@ -5235,7 +5236,7 @@ Description="Some enemy units gain the Will to Survive ability, which grants a p
 [DarkEvent_CenterMass X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Center Mass"
 SummaryText="The enemy deploys units who can do extra damage with their primary weapon."
-QuoteText="\"Win some, lose some. Then a plasma bolt fries your intestines.\""
+QuoteText="\"Win some, lose some. Then a plasma bolt fries your dick off.\""
 QuoteTextAuthor="- Anonymous Squaddie"
 PreMissionText="Grants some Ayyliens the Center Mass perk."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Damage)"
@@ -5248,22 +5249,22 @@ Description="Some enemy units do additional damage with their primary weapon."
 ;; Infighter
 [DarkEvent_Infighter X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Infighter"
-SummaryText="ADVENT Stun Lancers gain the Infighter ability, which grants bonus dodge against nearby enemies."
-QuoteText="\"Keep those Stun Lancers somewhere beyond arm's length.\""
+SummaryText="ADVENT SANICs gain the Infighter ability, which grants bonus dodge against nearby enemies."
+QuoteText="\"Keep those Stun Lancers somewhere between arm's length and your weapon systems' maximum effective range.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants ADVENT Stun Lancers the Infighter ability."
+PreMissionText="Grants ADVENT SANICs the Infighter ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Infighter)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Infighter)"
 
 [DarkEvent_Infighter X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Infighter)"
-Description="ADVENT Stun Lancers gain the Infighter ability, which grants bonus dodge against nearby enemies."
+Description="ADVENT SANICs gain the Infighter ability, which grants bonus dodge against nearby enemies."
 
 ;; Formidable
 [DarkEvent_Formidable X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Formidable"
 SummaryText="Some enemies gain the Formidable ability, giving them extra armor and resistance to explosives."
-QuoteText="\"We're going to need bigger bombs.\""
+QuoteText="\"We're going to need a fucking air strike.\""
 QuoteTextAuthor="- Anonymous Staff Sergeant"
 PreMissionText="Grants several enemies the Formidable ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Formidable)"
@@ -5277,7 +5278,7 @@ Description="Some enemies gain the Formidable ability, giving them extra armor a
 [DarkEvent_Lethal X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Lethal"
 SummaryText="Some enemies gain the Lethal ability, causing them to do +2 damage with their primary weapon."
-QuoteText="\"The Ayyliens must love the salty taste of our tears.\""
+QuoteText="\"The Ayys must love the salty taste of our tears.\""
 QuoteTextAuthor="- Cpl. John Teasdale"
 PreMissionText="Grants some enemies the Lethal ability, causing them to do +2 damage with their primary weapon."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Lethal)"
@@ -5291,7 +5292,7 @@ Description="Grants some enemies the Lethal ability, causing them to do +2 damag
 [DarkEvent_Shredder X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Shredder"
 SummaryText="Some enemies gain the Shredder ability, giving their weapons the ability to shred armor with each hit."
-QuoteText="\"Why did you just call me Tactical Ablative Armor? What's that mean?\""
+QuoteText="\"Why did you just call me Tactical Ablative Armor? The hell does that mean?\""
 QuoteTextAuthor="- Anonymous Rookie"
 PreMissionText="Grants several enemies the Shredder ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Shredder)"
@@ -5304,8 +5305,8 @@ Description="Some enemies gain the Shredder ability, giving their weapons the ab
 ; HI
 [DarkEvent_HuntersInstinct X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Hunter's Instincts"
-SummaryText="Many Vipers and related species gain the Hunter's Instinct ability, granting bonus damage against flanked enemies."
-QuoteText="\"Massive gun-toting, poison-spitting intelligent snakes? This is what I signed up for?\""
+SummaryText="Many Sneks and related species gain the Hunter's Instinct ability, granting bonus damage against flanked enemies."
+QuoteText="\"Massive gun-toting, poison-spitting intelligent snakes? This is what I signed up for? Fuck, XCOM aren't kidding when they said they'd guarantee a liberated Earth or a bodybag.\""
 QuoteTextAuthor="- Anonymous Corporal"
 PreMissionText="Grants many ophidian enemies the Hunter's Instinct ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Hunter's Instincts)"
@@ -5318,30 +5319,30 @@ Description="Many ophidian enemies gain the Hunter's Instinct ability, granting 
 ; LR
 [DarkEvent_LightningReflexes X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Lightning Reflexes"
-SummaryText="Some Stun Lancers and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
-QuoteText="\"I really, really hate those guys.\""
+SummaryText="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
+QuoteText="\"I AM STILL ALIVE, YOU FUCKIN' AMA-ARGGGGH FUCK!\""
 QuoteTextAuthor="- Anonymous Gunnery Sergeant"
-PreMissionText="Grants some Stun Lancers and other enemies the Lightning Reflexes ability."
+PreMissionText="Grants some SANICs and other enemies the Lightning Reflexes ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Lightning Reflexes)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Lightning Reflexes)"
 
 [DarkEvent_LightningReflexes X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Lightning Reflexes)"
-Description="Some Stun Lancers and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
+Description="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
 
 ; CCS
 [DarkEvent_CloseCombatSpecialist X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Close Combat Specialist"
-SummaryText="Archons gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
-QuoteText="\"The troops don't call those things Angels of Death for nothing.\""
+SummaryText="Wingmen gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
+QuoteText="\"The troops don't call those things Angels of Death for nothing... wait, what's with the Japanese texts hovering on that one?\""
 QuoteTextAuthor="- Central Officer Bradford"
-PreMissionText="Grants Archons the Close Combat Specialist ability."
+PreMissionText="Grants Wingmen the Close Combat Specialist ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Close Combat Specialist)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Close Combat Specialist)"
 
 [DarkEvent_CloseCombatSpecialist X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Close Combat Specialist)"
-Description="Archons gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
+Description="Wingmen gain the Close Combat Specialist ability, granting them reaction fire against any enemy who closes within four tiles."
 
 [DarkEvent_GrazingFire X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Grazing Fire"
@@ -5358,35 +5359,35 @@ Description="Some enemies gain the Grazing Fire ability, providing an increased 
 
 [DarkEvent_Cutthroat X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Cutthroat"
-SummaryText="Stun Lancers and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
+SummaryText="SANICs and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
 QuoteText="\"They are learning our vulnerabilities even as we learn theirs.\""
 QuoteTextAuthor="- Dr. Tygan"
-PreMissionText="Grants Stun Lancers and other enemies the Cutthroat ability."
+PreMissionText="Grants SANICs and other enemies the Cutthroat ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Cutthroat)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Cutthroat)"
 
 [DarkEvent_Cutthroat X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Cutthroat)"
-Description="Stun Lancers and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
+Description="SANICs and other enemies gain the Cutthroat ability, allowing melee attacks to ignore armor."
 
 [DarkEvent_CombatAwareness X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Combat Awareness"
-SummaryText="ADVENT Sentries gain the Combat Awareness ability, granting them bonus defense and armor when in Ogrewatch."
+SummaryText="ADVENT Campers gain the Combat Awareness ability, granting them bonus defense and armor when in Ogrewatch."
 QuoteText="\"Seems like these ADVENT Sentries have eyes in the back of their heads. Maybe that's part of their genetic modifications.\""
 QuoteTextAuthor="- Chief Shen"
-PreMissionText="Grants ADVENT Sentries the Combat Awareness ability."
+PreMissionText="Grants ADVENT Campers the Combat Awareness ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Combat Awareness)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Combat Awareness)"
 
 [DarkEvent_CombatAwareness X2HackRewardTemplate]
 FriendlyName="Dank Event: Tactical Upgrades (Combat Awareness)"
-Description="ADVENT Sentries gain the Combat Awareness ability, granting them bonus defense and armor when in Ogrewatch."
+Description="ADVENT Campers gain the Combat Awareness ability, granting them bonus defense and armor when in Ogrewatch."
 
 [DarkEvent_IronSkin X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Iron Skin"
 SummaryText="ADVENT robotic units gain the Iron Skin ability, granting them damage reduction against melee attacks."
-QuoteText="\"The idea that medieval weaponry could kill Ayylien robotic invaders always seemed a bit daft anyway.\""
-QuoteTextAuthor="- Anonymous British Squaddie"
+QuoteText="\"Th' idea that medieval weaponry cuid murdurr ayylien robotic invaders aye seemed a bawherr bullshit anyway. \""
+QuoteTextAuthor="- Anonymous Scottish Squaddie"
 PreMissionText="Grants ADVENT robotic units the Iron Skin ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Iron Skin)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Iron Skin)"
@@ -5397,8 +5398,8 @@ Description="ADVENT robotic units gain the Iron Skin ability, granting them dama
 
 [DarkEvent_TacticalSense X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Tactical Sense"
-SummaryText="Some enemy units gain the Tactical Sense ability, granting them bonus defense."
-QuoteText="\"Resistance Intel suggests the Ayyliens are creating a cadre specializing in counterinsurgency operations.\""
+SummaryText="Some enemy units gain the Tactical Sense ability, granting them 3 defense for every sighted XCOM or Resistance operative."
+QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, that's probably that COIN carde our contact's been talking about.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemy units the Tactical Sense ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Tactical Sense)"
@@ -5411,8 +5412,8 @@ Description="Some enemy units gain the Tactical Sense ability, granting them bon
 [DarkEvent_Aggression X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Aggression"
 SummaryText="Some enemy units gain the Aggression ability, granting them bonus critical chances."
-QuoteText="\"I think we've made them mad.\""
-QuoteTextAuthor="- Anonymous Lance"
+QuoteText="\"I think we've made them really, *really* crazy mad.\""
+QuoteTextAuthor="- Anonymous Lance Corporal"
 PreMissionText="Grants some enemy units the Aggression ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Aggression)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Aggression)"
@@ -5446,7 +5447,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Nanomac
 [DarkEvent_GreaterFaceless X2DarkEventTemplate]
 DisplayName="Aryan Fellow Humans"
 SummaryText="The Ayyliens deploy a stronger and deadlier Fellow Humman unit."
-QuoteText="\"We don't know if these are ayylien reinforcements from offworld or new designs from their cloning tanks. Either way, they are more dangerous than before.\""
+QuoteText="\"We don't know if these are ayylien reinforcements from offworld or new designs from their genemod tanks. Either way, they are more dangerous than before.\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="The Ayyliens deploy a stronger and deadlier Faceless unit."
 PostMissionSuccessText="Dank Event Countered: Aryan Fellow Humans"
@@ -5751,7 +5752,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Alienware"
 
 [DarkEvent_DarkTower X2DarkEventTemplate]
 DisplayName="Dank Tower"
-QuoteText="\"Looks like ADVENT is doubling up their propaganda effort, they're probably not happy about the stuff we've been putting out lately.\""
+QuoteText="\"Looks like ADVENT is doubling up their propaganda effort, they're probably not happy about the porn we've been putting out lately.\""
 QuoteTextAuthor="- Chief Engineer Shen"
 PostMissionSuccessText="Dark Event Countered: Dank Tower"
 PostMissionFailureText="Failed to Counter Dark Event: Dank Tower"
@@ -5789,21 +5790,21 @@ PostMissionFailureText="Failed to Counter Dank Event: Wild Hunt"
 
 [DarkEvent_LoyaltyAmongThieves_Assassin X2DarkEventTemplate]
 SummaryText="When any Edgelord gains information about XCOM, a portion is passed along to the Assassin as well."
-QuoteText="\"Sibling rivalry or not, the Edgelords aren't going to do us any favors if it means impressing their masters.\""
+QuoteText="\"Sibling rivalry or not, the Edgelords aren't going to do us any favors if it means garner some \"honor\" for their masters.\""
 PreMissionText="When any Edgelord gains information about XCOM, a portion is passed along to the Assassin as well."
 PostMissionSuccessText="Dank Event Countered: Loyalty Among Thieves"
 PostMissionFailureText="Failed to Counter Dank Event: Loyalty Among Thieves"
 
 [DarkEvent_LoyaltyAmongThieves_Hunter X2DarkEventTemplate]
 SummaryText="When any Edgelord gains information about XCOM, a portion is passed along to the Hunter as well."
-QuoteText="\"Sibling rivalry or not, the Edgelords aren't going to do us any favors if it means impressing their masters.\""
+QuoteText="\"Sibling rivalry or not, the Edgelords aren't going to do us any favors if it means shooting everything in their sights for their masters.\""
 PreMissionText="When any Edgelord gains information about XCOM, a portion is passed along to the Hunter as well."
 PostMissionSuccessText="Dank Event Countered: Loyalty Among Thieves"
 PostMissionFailureText="Failed to Counter Dank Event: Loyalty Among Thieves"
 
 [DarkEvent_LoyaltyAmongThieves_Warlock X2DarkEventTemplate]
 SummaryText="When any Edgelord gains information about XCOM, a portion is passed along to the Warlock as well."
-QuoteText="\"Sibling rivalry or not, the Edgelords aren't going to do us any favors if it means impressing their masters.\""
+QuoteText="\"Sibling rivalry or not, the Edgelords aren't going to do us any favors if it means jerking their masters off.\""
 PreMissionText="When any Edgelord gains information about XCOM, a portion is passed along to the Warlock as well."
 PostMissionSuccessText="Dank Event Countered: Loyalty Among Thieves"
 PostMissionFailureText="Failed to Counter Dank Event: Loyalty Among Thieves"
@@ -6218,11 +6219,11 @@ BriefSummary="Despite his fixation on Psionic power, even the Edgelord Warlock c
 
 [TheLost X2SitRepTemplate]
 FriendlyName="Shitposters"
-Description="Shitposters are known to be present in the surrounding area. Caution advised."
+Description="Shitposters are known to be present in the surrounding area. Exercise restraints when using explosives."
 
 [TheHorde X2SitRepTemplate]
 FriendlyName="The Horde"
-Description="ADVENT have retreated from this area, leaving only large amounts of Shitposters."
+Description="ADVENT have retreated from this area, leaving only large amounts of Shitposters. Have fun."
 
 ; ================================================
 ; Research
