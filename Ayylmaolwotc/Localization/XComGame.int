@@ -7001,4 +7001,17 @@ Summary="Dr. Vahlen managed to improve on this creature's key systems while some
 CodeName="Daedalus"
 LongDescription="The modified Wingman variant known to Dr. Vahlen as \"Alpha\" has not only been genetically altered, but also upgraded accordingly with equipment directly tied to its unusual abilities. Again I have to question the logic in providing enhanced offensive capabilities to an otherwise hostile Ayylien species, even if Vahlen had intended on turning these creatures against their former masters.\n\nAlthough I had little exposure to the rudimentary biomechanical predecessors to the modern Wingman, I can say with certainty that Vahlen's Alpha is no doubt the most physically and technologically advanced of any of the Ayyliens' earlier renditions of this species. From our field reports, it seems the creature had a terrifying propensity to seize upon its target before rapidly climbing in altitude and then dropping the helpless victim. I believe our troops have done a great service in eliminating this particular threat. R. Tygan." 
 
+; ================================================
+; Misc melee skills
+; ================================================
 
+[MC_Stock_Strike X2AbilityTemplate]
+
+LocFlyOverText="SHUT THE FUCK UP AND SLEEP"
+
+[GetUp X2AbilityTemplate]
+
+LocFlyOverText="Stop napping you wanker!"
+
+[Strike X2AbilityTemplate]
+LocFlyOverText="I...cast...FIST!"
