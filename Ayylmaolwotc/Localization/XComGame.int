@@ -769,6 +769,14 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 
 ;;;;;;;;;;;;;;;;;;;;  CLASS TEMPLATES ;;;;;;;;;;;;;;;;;;;;;;;
 
+;[Skirmisher X2SoldierClassTemplate]
+;DisplayName="Skirmisher"
+;ClassSummary="Former ADVENT turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now practice proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
+
+;[Reaper X2SoldierClassTemplate]
+;DisplayName="Gopnik"
+;ClassSummary="Drunken and racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist only to become one with the hardbass, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
+
 [LWS_Technical X2SoldierClassTemplate]
 DisplayName="Technical"
 ClassSummary="With liberal usage of Confucus enlightenment and *extreme battlefield meditation*, our Technicals are trained to use certain heavy weaponry, the rocket launcher and flammenwerfer, to provide critical but ultimately limited support during firefights, because apparently nobody has ever heard of the M3 MAAWS in their entire lives and we're stuck with these shitty gauntlets. Thanks, Shen."
