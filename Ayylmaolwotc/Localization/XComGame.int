@@ -783,9 +783,8 @@ RightAbilityTreeTitle="Fireman"
 
 
 [LWS_Specialist X2SoldierClassTemplate]
-DisplayName="
-"
-ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high extreme hazing and *personality building* attempts by our senior operatives."
+DisplayName="Nerd"
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high amount of extreme hazing and *personality building* attempts by our senior operatives."
 LeftAbilityTreeTitle="Medic"
 RightAbilityTreeTitle="Hacker"
 
@@ -3189,7 +3188,7 @@ LocFlyOverText="Can you stop getting shot FOR 5 MINUTES"
 
 [LWS_Specialist X2SoldierClassTemplate]
 DisplayName="Nerd"
-ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high extreme hazing and *personality building* attempts by our senior operatives."
+ClassSummary="Operating and wasting some of our most advanced equipment, Nerds deploy robotic drones on the battlefield that can be outfitted for magical hacking, field medic duty, or a dependable overwatcher, with the drawback of piss-poor offensive capabilities. A possible reason why they pursue this specialization may be due to the abnormally high amount of extreme hazing and *personality building* attempts by our senior operatives."
 LeftAbilityTreeTitle="Doctor Nerd"
 RightAbilityTreeTitle="Computer Nerd"
 
