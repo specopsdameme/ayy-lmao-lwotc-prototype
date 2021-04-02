@@ -236,7 +236,7 @@ LocPromotionPopupText="<Bullet/> The range of your rockets is increased by 6 til
 
 [BunkerBuster X2AbilityTemplate]
 LocFriendlyName="Bunker Buster"
-LocFlyOverText="Bunker Buster"
+LocFlyOverText="REDUCE THAT BUILDING TO ASHES"
 LocHelpText="Fire a Bunker Buster. <Ability:ROCKETSCATTER/>"
 LocLongDescription="Fire a special rocket that destroys buildings and other objects in the environment."
 LocPromotionPopupText="<Bullet/> Fire a special rocket with a large area of effect that does moderate damage to enemies but huge damage to buildings, vehicles and other objects in the environment.<br/><Bullet/> Requires both actions and usable only once per mission.<br/>"
@@ -281,7 +281,7 @@ LocFlyOverText="Gib mec"
 
 [BuffEnemy_FullOverride X2HackRewardTemplate]
 FriendlyName="Overdrive"
-Description="Your Incompetence will increase this target's Aim and Defense stats."
+Description="Your incompetence will increase this target's Aim and Defense stats."
 
 [GreaterShutdownRobot X2HackRewardTemplate]
 FriendlyName="Greater Shutdown"
@@ -550,7 +550,7 @@ TacticalText="<Bullet/> Powered Shadowkeeper's strength is comparable to a Plasm
 FriendlyName="Boomstick"
 FriendlyNamePlural="Boomsticks"
 BriefSummary="A powerful, if short-ranged, secondary weapon."
-TacticalText="<Bullet/> Adaptation of concealable pre-invasion weaponry.<br/><Bullet/> Two shots per mission without upgrades."
+TacticalText="<Bullet/> An adaptation of a concealable pre-invasion weaponry.<br/><Bullet/> Two shots per mission without upgrades."
 
 
 [SawedOffShotgun_MG X2WeaponTemplate]
