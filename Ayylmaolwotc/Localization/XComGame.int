@@ -267,7 +267,7 @@ LocPromotionPopupText="<Bullet/> grants +50 aim, +50 critical chance and +2 dama
 [Tradecraft X2AbilityTemplate]
 LocFriendlyName="Tradecraft"
 LocFlyOverText="Tradecraft"
-LocLongDescription="This soldier has significantly reduced infiltration times while on missions."
+LocLongDescription="This soldier becomes as quiet as a kid who may or may not be a school shooter, and has significantly reduced infiltration times while on missions."
 LocHelpText="This soldier has significantly reduced infiltration times while on missions."
 LocPromotionPopupText="<Bullet/> This soldier has significantly reduced infiltration times while on missions.<br/>"
 
@@ -292,12 +292,12 @@ FriendlyName="Greater Shutdown"
 Description="Disable (stun) the unit for 3 turns."
 
 [ControlSectopod_Permanent X2HackRewardTemplate]
-FriendlyName="Master Sectopod"
-Description="Take control of this unit for rest of the mission and gain stat bonuses. Do it or no balls"
+FriendlyName="Master METAL GEAR"
+Description="Take control of this unit for rest of the mission and gain stat bonuses. Prepare your anus and your save files. Do it or no balls."
 
 [ControlRobot_Permanent X2HackRewardTemplate]
 FriendlyName="Master Enemy"
-Description="Take control of this unit for rest of the mission and gain stat bonuses. MEC units will be reprogrammed to serve the Resistance."
+Description="Take control of this unit for rest of the mission and gain stat bonuses. Autobots will be enslaved to serve the Resistance."
 
 
 [ScanningProtocol X2AbilityTemplate]
@@ -888,10 +888,10 @@ strCharacterName="Resistance Autobot"
 
 ;; REWARD TEMPLATES
 [Reward_Rebel X2RewardTemplate]
-DisplayName="Resistance Personnel"
+DisplayName="Resistance Slave"
 
 [Reward_ResistanceMEC X2RewardTemplate]
-DisplayName="Resistance MEC"
+DisplayName="Resistance Autobot"
 
 [Reward_NewResources X2RewardTemplate]
 DisplayName="New Resources"
@@ -1242,7 +1242,7 @@ HairTriggerFreeAction="Hair Trigger: Aww Yiss!"
 DisplayName="Big Black Dickhead Autopsy"
 CodeName="Bluton"
 Summary="This behemoth is different enough from other Mutons that it merits a specific investigation."
-LongDescription="Central Officer Bradford has indicated that XCOM had intelligence reports of an elite form of Dickhead that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it is more able to recognize complex patterns and process information quickly in combat situations. Additionally, the cadaver of this subject also appears to have several cybernetic endoskeletons to boost the already powerful genetic modifications of this subject, some of which might might be useful for our weapon developments. I intend to let Shen investigate as to how to effectively use such contractions, for my knowledge of prosthetics are far inferior to hers. R. Tygan."
+LongDescription="Central Officer Bradford has indicated that XCOM had intelligence reports of an elite form of Dickhead that served as a guardian to the Elders. This creature appears to be that form. The genetic enhancements extend into the creature's brain, suggesting it is more able to recognize complex patterns and process information quickly in combat situations. Additionally, the cadaver of this subject also appears to have several cybernetic endoskeletons to boost the already powerful genetic modifications of this subject, some of which might might be useful for our weapon developments. I intend to let Shen investigate as to how to effectively use such contraptions, for my knowledge of prosthetics are far inferior to hers. R. Tygan."
 AlertString="Big Black Dickhead"
 
 
@@ -1332,15 +1332,15 @@ UnlockedDescription="Recovered from ADVENT /k/ommando Corpse: <XGParam:StrValue0
 DisplayName="Render ADVENT Shieldbearer Corpse"
 Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT Cockblocker we should be able to recover 3 Alloys."
 CodeName="Rotisserie"
-LongDescription="The rendering of this ADEVENT Shieldbearer was successful. R. Tygan."
-UnlockedDescription="Recovered from ADVENT Shieldbearer Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
+LongDescription="The rendering of this ADEVENT Cockblocker was successful. R. Tygan."
+UnlockedDescription="Recovered from ADVENT Cockblocker Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderAdventStunLancerCorpse X2TechTemplate]
 DisplayName="Render ADVENT SANIC Corpse"
 Summary="Given our preference for hit and run operations, ADVENT and Ayylien remains are difficult to recover from many missions, but they are valuable assets for our research and construction efforts. However, we are also able to render them down for key materials with a wide variety of applications. From the ADVENT SANIC we should be able to recover 3 Alloys."
 CodeName="Barbecue"
-LongDescription="The rendering of this ADVENT Stun Lancer was successful. R. Tygan."
-UnlockedDescription="Recovered from ADVENT Stun Lancer Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
+LongDescription="The rendering of this ADVENT SANIC was successful. R. Tygan."
+UnlockedDescription="Recovered from ADVENT SANIC Corpse: <XGParam:StrValue0/!Quantity/> Alloys"
 
 [RenderMECWreck X2TechTemplate]
 DisplayName="Disassemble ADVENT Autobot Wreck"
@@ -2190,7 +2190,7 @@ LocPromotionPopupText="<Bullet/> While Interrupt can be used without any action 
 LocFriendlyName="Interrupt"
 LocLongDescription="A powerful form of Overwatch, capable of being used without any actions. Instead of firing automatically, perform any single action."
 LocHelpText="A powerful form of Overwatch, capable of being used without any actions. Instead of firing automatically, perform any single action."
-LocFlyOverText="Interrupt"
+LocFlyOverText="I'm gonna stop you right there"
 LocPromotionPopupText="<Bullet/> While Interrupt can be used without any action points available, it still depletes all of the Skirmisher's remaining actions.<br/><Bullet/> Some actions are not available during Interrupt, like Overwatch.<br/><Bullet/> Interrupt has a <Ability:INTERRUPT_COOLDOWN/> turn cooldown."
 
 
@@ -2621,7 +2621,7 @@ m_strReinforcementsTitle="RAPESQUAD"
 m_strReinforcementsBody="INCOMING"
 
 [XComMultiplayerTacticalUI]
-MutonM2_LW="<Bullet/> The Viagra Dickhead can do all the things a Dickhead can, plus issue a war cry that improves the abilities of some nearby allies, and charge with its bayonet at any enemy within sprint distance.\n<Bullet/> Unlike the Dickheads of the invasion era, the new hybridized Mutons are highly effective at close combat\n<Bullet/> Their NO U ability permits them to take a return attack at anyone who engages them in melee\n<Bullet/> They can also Execute incapacitated nearby enemies; under no circumstances should you allow an enemy Dickhead near one of your stunned units\n<Bullet/> They can also Suppress with their rifles, and their battle armor provides consistent protection."
+MutonM2_LW="<Bullet/> The Viagra Dickhead can do all the things a Dickhead can, plus issue a war cry that improves the abilities of some nearby allies, and charge with its bayonet at any enemy within sprint distance.\n<Bullet/> Unlike the Dickheads of the invasion era, the new hybridized Dickheads are highly effective at close combat\n<Bullet/> Their NO U ability permits them to take a return attack at anyone who engages them in melee\n<Bullet/> They can also Execute incapacitated nearby enemies; under no circumstances should you allow an enemy Dickhead near one of your stunned units\n<Bullet/> They can also Suppress with their rifles, and their battle armor provides consistent protection."
 MutonM3_LW="<Bullet/>""
 
 ; ================================================
@@ -2700,7 +2700,7 @@ LaunchedAbilityName="Launch Ayylien Grenade"
 LaunchedAbilityHelpText="Launch an Ayylien Grenade at target area. Shreds armor."
 
 [MutonM2_LW_MeleeAttack X2WeaponTemplate]
-FriendlyName="Bayonet"
+FriendlyName="WHAT MAKES THE GRASS GROW"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;; MutonM3_LW ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -2838,10 +2838,10 @@ FriendlyName="ADVENT Grenade Launcher"
 strCharacterName="ADVENT Trolldier"
 
 [AdvRocketeerM2 X2CharacterTemplate]
-strCharacterName="ADVENT Advanced Trolldier"
+strCharacterName="Advanced Trolldier"
 
 [AdvRocketeerM3 X2CharacterTemplate]
-strCharacterName="ADVENT Elite Trolldier"
+strCharacterName="Elite Trolldier"
 
 [AdvRocketeerM1_RocketLauncher X2WeaponTemplate]
 FriendlyName="ADVENT Rocket Launcher"
@@ -2859,7 +2859,7 @@ strCharacterName="ADVENT Shock Trooper"
 strCharacterName="ADVENT Adrenaline Junkie"
 
 [AdvVanguard X2CharacterTemplate]
-strCharacterName="ADVENT Vanguard"
+strCharacterName="ADVENT Bouncer"
 
 [AdvScout X2CharacterTemplate]
 strCharacterName="ADVENT Scunt"
@@ -2932,7 +2932,7 @@ LocFlyOverText="ALLAHU ACKBAR"
 DisplayName="ADVENT Flammenwerfer Autopsy"
 Summary="This unit werfs flammen."
 CodeName="Flammen"
-LongDescription="This unit werfs flammen. It's pretty gud at it. Seriously, What else do you need to know? -R. Tygan."  
+LongDescription="This unit werfs flammen. It's pretty gud at it. Seriously, what else do you need to know? -R. Tygan."  
 AlertString="ADVENT Flammenwerfer"
 UnlockedDescription="Anti-Flammen measures Active"
 
@@ -2965,13 +2965,13 @@ LocFlyOverText="*disables ur antivirus*"
 [VanishReveal X2AbilityTemplate]
 LocFriendlyName="Reveal"
 LocFlyOverText="Hello there"
-LocHelpText="Reveal this Spectre to the enemy.  This happens automatically if actions are performed while vanished."
-LocLongDescription="Reveal this Spectre to the enemy.  This happens automatically if actions are performed while vanished."
+LocHelpText="Reveal this Ransomware to the enemy.  This happens automatically if actions are performed while vanished."
+LocLongDescription="Reveal this Ransomware to the enemy.  This happens automatically if actions are performed while vanished."
 
 [Horror X2AbilityTemplate]
 LocFriendlyName="Horror"
-LocHelpText="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Spectre."
-LocLongDescription="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Spectre."
+LocHelpText="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
+LocLongDescription="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
 LocFlyOverText="Wtf, that ability exists?"
 
 [Shadowbind X2AbilityTemplate]
@@ -3078,7 +3078,7 @@ LocFlyOverText="Good job, buddy! Keep it up!"
 LocFlyOverText="Cheating death like the broken psi shitter you are"
 
 [Fuse X2AbilityTemplate]
-LocFlyOverText=*Pulls pin*""
+LocFlyOverText="*pulls pin*"
 
 [Domination X2AbilityTemplate]
 LocFlyOverText="Wanna join our team?"
@@ -3250,7 +3250,7 @@ LocFlyOverText="*Angry Gremlin noises*"
 
 [BuffEnemy_FullOverride X2HackRewardTemplate]
 FriendlyName="Overdrive"
-Description="A failed hack will increase this target's Aim and Defense stats. Try to not fuck up."
+Description="A failed hack will increase this target's Aim and Defense stats. Try to not fuck this up."
 
 [ControlRobot_Mission X2HackRewardTemplate]
 FriendlyName="Get a Robot Minion"
@@ -3258,7 +3258,7 @@ Description="Take control of this unit for rest of the mission."
 
 [ControlRobot_Permanent X2HackRewardTemplate]
 FriendlyName="Get a Robot Slave"
-Description="Take control of this unit for rest of the mission and gain stat bonuses. MEC units will be reprogrammed to serve the Resistance. Too bad that basically never happens."
+Description="Take control of this unit for rest of the mission and gain stat bonuses. Autobots will be enslaved to serve the Resistance. Too bad that basically never happens."
 
 [CoolUnderPressure X2AbilityTemplate]
 LocFriendlyName="Cool Under Pressure"
@@ -3342,7 +3342,7 @@ LocFriendlyName="Rend"
 LocLongDescription="Melee attack with a chance to stun or disorient the target. Cannot miss. Triggers Momentum, and generates Devil Trigger on kills."
 LocHelpText="Melee attack with a chance to stun or disorient the target. Triggers Momentum, and generates Devil Trigger on kills."
 LocPromotionPopupText="<Bullet/> Using Rend to kill enemies is the Templar's primary method for generating Devil Trigger.<br/><Bullet/> Rend's damage is increased at higher Devil Trigger levels.<br/><Bullet/> After casting Rend, the Templar will gain Momentum, allowing them one movement action. Use this to return to cover after attacking.<br/><Bullet/> Rend has a <Ability:RENDSTUNCHANCE/>% chance to Stun per Devil Trigger. Stunned targets will also be knocked back.<br/><Bullet/> Rend has a <Ability:RENDDISORIENTCHANCE/>% chance to Disorient per Devil Trigger.<br/>"
-LocFlyOverText="Mind if i cut in?"
+LocFlyOverText="Mind if I cut in?"
 
 [Overcharge X2AbilityTemplate]
 LocFriendlyName="Overcharge"
@@ -3363,14 +3363,14 @@ LocPromotionPopupText="<Bullet/> Overcharge only applies to non-lethal attacks.<
 LocFriendlyName="Rend"
 LocLongDescription="Melee attack with a chance to stun or disorient the target. Cannot miss. Triggers Momentum, and generates Devil Trigger on kills."
 LocHelpText="Melee attack with a chance to stun or disorient the target. Triggers Momentum, and generates Devil Trigger on kills."
-LocFlyOverText="Mind if i cut in?"
+LocFlyOverText="Mind if I cut in?"
 
 [ArcWavePassive X2AbilityTemplate]
 LocFriendlyName="Arc Wave"
 LocLongDescription="Rend generates a wave of Psionic energy in the direction of the attack. Damage increases with Devil Trigger level."
 LocHelpText="Rend generates a wave of Psionic energy in the direction of the attack."
 LocPromotionPopupText="<Bullet/> Arc Wave does not affect the target of the original Rend attack.<br/><Bullet/> Arc Wave deals damage equal to double the Templar's current Devil Trigger level, or 1 if they have no Devil Trigger.<br/><Bullet/> Arc Wave travels through environmental objects.<br/>"
-LocFlyOverText="Mind if i cut in?"
+LocFlyOverText="Mind if I cut in?"
 
 [Momentum X2AbilityTemplate]
 LocFriendlyName="Momentum"
@@ -3393,7 +3393,7 @@ LocFriendlyName="Volt"
 LocLongDescription="Psionic attack that deals low damage, but jumps to nearby units at higher Devil Trigger levels. Costs 1 Devil Trigger."
 LocHelpText="Psionic attack that can jump to nearby units. Costs 1 Devil Trigger."
 LocPromotionPopupText="<Bullet/> Volt has no cooldown, but costs 1 Devil Trigger.<br/><Bullet/> Volt deals double damage to Psionic units.<br/><Bullet/> Volt can jump to a number of enemies equal to the current Devil Trigger level.<br/>"
-LocFlyOverText="Lightning bolt!"
+LocFlyOverText="Who orders a lightning bolt?!"
 
 [Parry X2AbilityTemplate]
 LocFriendlyName="Parry"
@@ -3412,7 +3412,7 @@ LocFlyoverText="watch me flex on this fucker right here"
 LocFriendlyName="Amplify"
 LocLongDescription="Mark a single target with a Psionic lens, causing them to take an additional <Ability:AmplifyDamageMult/>% damage from a number of future single-target attacks. Costs 1 Devil Trigger."
 LocHelpText="Mark a target, causing them to take additional damage from single-target attacks. Costs 1 Devil Trigger."
-LocHitMessage="Amplified"
+LocHitMessage="The bastard's rekt, kill that son of a bitch!"
 LocPromotionPopupText="<Bullet/> Amplify will last for a number of successful attacks equal to the Templar's Devil Trigger level when activated.<br/><Bullet/> Amplify does not end the Templar's turn.<br/>"
 
 [X2Effect_Amplify]
@@ -3491,7 +3491,7 @@ LocFriendlyName="Ionic Storm"
 LocLongDescription="Summon lightning to strike all nearby enemies. Damage increases with Devil Trigger level. Costs all Devil Trigger, but generates Devil Trigger on kills."
 LocHelpText="Summon lightning to strike all nearby enemies. Costs all Devil Trigger, but generates Devil Trigger on kills."
 LocPromotionPopupText="<Bullet/> Ionic Storm's radius increases at higher Devil Trigger levels.<br/><Bullet/> Ionic Storm deals double damage to Psionic units.<br/><Bullet/> Use Ionic Storm at a high Devil Trigger level when it will kill many targets to immediately refund the Devil Trigger cost.<br/><Bullet/> Ionic Storm has a <Ability:SelfCooldown/> turn cooldown.<br/>"
-LocFlyOverText=""
+LocFlyOverText="LET PSI RAIN FROM THE SKY"
 
 [VoidConduit X2AbilityTemplate]
 LocFriendlyName="Void Conduit"
@@ -4089,18 +4089,18 @@ LocHelpText="The Super Saiyan quickly regains health when wounded."
 
 [Vanish X2AbilityTemplate]
 LocFriendlyName="Vanishing"
-LocLongDescription="Spectre becomes concealed from enemies and gains increased mobility."
-LocHelpText="Spectre becomes concealed from enemies and gains increased mobility."
+LocLongDescription="Ransomware becomes concealed from enemies and gains increased mobility."
+LocHelpText="Ransomware becomes concealed from enemies and gains increased mobility."
 
 [VanishReveal X2AbilityTemplate]
 LocFriendlyName="Reveal"
-LocHelpText="Reveal this Spectre to the enemy.  This happens automatically if actions are performed while vanished."
-LocLongDescription="Reveal this Spectre to the enemy.  This happens automatically if actions are performed while vanished."
+LocHelpText="Reveal this Ransomware to the enemy.  This happens automatically if actions are performed while vanished."
+LocLongDescription="Reveal this Ransomware to the enemy.  This happens automatically if actions are performed while vanished."
 
 [Horror X2AbilityTemplate]
 LocFriendlyName="Horror"
-LocHelpText="Tentacles from the Spectre reach out and bind a humanoid target, damaging the target and healing the Spectre."
-LocLongDescription="Tentacles from the Spectre reach out and bind a humanoid target, damaging the target and healing the Spectre."
+LocHelpText="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
+LocLongDescription="Tentacles from the Ransomware reach out and bind a humanoid target, damaging the target and healing the Ransomware."
 LocFlyOverText="Horror!"
 
 [Shadowbind X2AbilityTemplate]
@@ -4138,7 +4138,7 @@ LocHelpText="Shitposter Howls."
 
 [VanishingWind X2AbilityTemplate]
 LocFriendlyName="Vanishing Wind"
-LocLongDescription="Assassin Vanishes"
+LocLongDescription="Assassin disappears like a bitch."
 LocHelpText="Assassin Vanishes"
 LocFlyOverText="Vanishing Wind"
 
@@ -4212,7 +4212,7 @@ LocHelpText="Can summon ADVENT SANICs."
 ; AbilityAvailabilityCodes="AA_CannotAfford_AmmoCost"
 AbilityAvailabilityStrings[20]="Insufficient dakka."
 ; AbilityAvailabilityCodes="AA_CannotAfford_Focus"
-AbilityAvailabilityStrings[92]="Insufficient Devil trigger."
+AbilityAvailabilityStrings[92]="Insufficient Devil Trigger."
 
 
 LootExplodedMsg="You destroyed the loot, idiot. Good job."
@@ -4234,7 +4234,7 @@ LostNoiseMessage="A series of growls sound in the distance. The Shitposters can 
 TrackingShotTutorialTitle="Edgelord Hunter: Tracking Shot"
 TrackingShotTutorialText="When the Edgelord Hunter begins tracking a unit, he is setting up a shot for his next turn. The soldier can prevent the shot by moving out of the Hunter's line of sight, or can decrease its chance to hit by Hunkering Down."
 
-DazedTutorialText="When soldiers are \"Dazed\" by an Edgelord attack, they can be restored when an ally moves into an adjacent location and uses the free \"Revive\" ability. Revived units have a chance to be disoriented upon revival."
+DazedTutorialText="When soldiers are \"Sleepy\" by an Edgelord attack, they can be restored when an ally moves into an adjacent location and uses the free \"Revive\" ability. Revived units have a chance to be disoriented upon revival."
 
 [Knockout X2AbilityTemplate]
 LocFlyOverText="Bonk"
@@ -4296,8 +4296,8 @@ m_strHitFriendlyObjectBody="This action will cause damage to a friendly object!\
 ChosenEncounterTitle="EDGELORD ENCOUNTER"
 StrengthsLabel="EDGELORD STRENGTHS:"
 WeaknessesLabel="EDGELORD WEAKNESSES:"
-ChosenKnowledgeLabel="EDGELORD KNOWLEDGE"
-ChosenKnowledgeText="The Edgelord extracted knowledge from one of our soldiers." 
+ChosenKnowledgeLabel="EDGELORD MEMES"
+ChosenKnowledgeText="The Edgelord extracted memes from one of our soldiers." 
 
 [XComGame.UIEndGameStats]
 [UIEndGameStats]
@@ -4324,7 +4324,7 @@ WoundStatusStrings[2]="On a long vacation"
 ComIntLabels[eComInt_Standard]="Brainlet"
 ComIntLabels[eComInt_AboveAverage]="Retard"
 ComIntLabels[eComInt_Gifted]="Average"
-ComIntLabels[eComInt_Genius]="4D Chess player"
+ComIntLabels[eComInt_Genius]="4D Chess Player"
 ComIntLabels[eComInt_Savant]="ASCENDED"
 
 
@@ -4494,7 +4494,7 @@ PanickedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is freaking the fuc
 PanickedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still freaking the fuck out."
 PanickedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer freaking the fuck out."
 
-GatekeeperClosedEffectDesc="The Pok'ball's shell is closed. It is more resistant to damage in this state."
+GatekeeperClosedEffectDesc="The Pokeball's shell is closed. It is more resistant to damage in this state."
 
 RevealedFriendlyName="Oh shit they found us!"
 ConcealedFriendlyName="Sneak skill increased to 100"
@@ -4507,10 +4507,10 @@ UltrasonicLureFriendlyDesc="All Shitposters in range will attack this target."
 
 [XComGame.X2StatusEffects_XPack]
 [X2StatusEffects_XPack]
-DazedFriendlyName="Dazed"
-DazedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is dazed."
-DazedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still dazed."
-DazedEffectLostString="<XGParam:StrValue0/!UnitName/> is no longer dazed."
+DazedFriendlyName="Ah shit, I'm getting tired..."
+DazedEffectAcquiredString="<XGParam:StrValue0/!UnitName/> is sleepy."
+DazedEffectTickedString="<XGParam:StrValue0/!UnitName/> is still sleepy."
+DazedEffectLostString="<XGParam:StrValue0/!UnitName/> jammed coffee into their mouth and is no longer sleepy."
 DazedPerActionFriendlyName="Dazed: <Ability:STUNNEDACTIONPOINTS>"
 
 [XComGame.UITacticalHUD]
@@ -5012,7 +5012,7 @@ PreMissionText="Adds <XGParam:StrValue0/!Quantity/> to the ADVENT CALENDAR"
 [DarkEvent_HavenInfiltration X2DarkEventTemplate]
 DisplayName="Haven Infiltrators"
 SummaryText="The Ayyliens send Faceless to infiltrate our Havens."
-QuoteText="\"That new guy, Johnson, seems a little too eager to please.\""
+QuoteText="\"That FNG, Johnson, seems a little too eager to please.\""
 QuoteTextAuthor="- Unidentified Resistance member"
 PreMissionText="Greater chance of newly recruited Resistance members being Faceless"
 PostMissionSuccessText="Dank Event Countered: Haven Infiltrators"
@@ -5048,16 +5048,16 @@ PostMissionFailureText="Failed to Counter Dank Event: Air Patrols"
 [DarkEvent_MutonEngineers X2DarkEventTemplate]
 DisplayName="Demolitions Experts"
 SummaryText="The Ayyliens deploy units with enhanced cover destruction abilities."
-QuoteText="\"Fire in the Hole!\""
-QuoteTextAuthor="- Unidentified XCOM Corporal"
-PreMissionText="Grants some ADVENT soldiers and Mutons the Sapper ability."
-PostMissionSuccessText="Dank Event Countered: Muton Engineers"
-PostMissionFailureText="Failed to Counter Dank Event: Muton Engineers"
+QuoteText="\"Come on, alkhba! I'm STILL ALIVE!!!\""
+QuoteTextAuthor="- Unidentified XCOM Corporal (KIA)"
+PreMissionText="Grants some ADVENT soldiers and Dickhead the Sapper ability."
+PostMissionSuccessText="Dank Event Countered: Dickhead Engineers"
+PostMissionFailureText="Failed to Counter Dank Event: Dickhead Engineers"
 
 [DarkEvent_RuralCheckpoints_LW X2DarkEventTemplate]
 DisplayName="ADVENT Rural Checkpoints"
 SummaryText="ADVENT stifles the movement of Resistance resources, decreasing the effectiveness of Resistance members assigned to Supply worldwide."
-QuoteText="\"Looks like ADVENT isn't content to just sit behind their city walls anymore.\""
+QuoteText="\"Looks like ADVENT isn't content to just sit behind their city walls with their thumbs up their asses anymore.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Decreases the productivity of Resistance members assigned to the Supply job."
 PostMissionSuccessText="Dank Event Countered: ADVENT Rural Checkpoints"
@@ -5126,7 +5126,7 @@ Description="Enemy robotic units gain 15 hack defense."
 [DarkEvent_Firewalls X2DarkEventTemplate]
 DisplayName="ADVENT Firewalls"
 SummaryText="ADVENT incorporates defenses against our hacking attempts."
-QuoteText="\"ADVENT robotic units won't be easy pickings for our Specialists any more.\""
+QuoteText="\"Seems the ayyliens just realized their MECs being subverted by foreign Wifi signals sounds actually pretty stupid. In any case, ADVENT robotic units won't be easy pickings for our Specialists any more.\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants enemy robots increased defenses against our hacking attempts."
 PostMissionSuccessText="Dank Event Countered: ADVENT Firewalls"
@@ -5213,7 +5213,7 @@ LocLongDescription="+5 Aim"
 [DarkEvent_AdvancedServos X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Advanced Servos"
 SummaryText="ADVENT deploys advanced exoskeletons."
-QuoteText="\"ADVENT is fielding prototypes aimed at improving the mobility of both its clone and robotic combat units.\""
+QuoteText="\"ADVENT is fielding prototypes aimed at improving the mobility of both its infantry and robotic combat units.\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants many ADVENT units bonus mobility."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Advanced Servos)"
@@ -5278,7 +5278,7 @@ Description="Some enemy units do additional damage with their primary weapon."
 [DarkEvent_Infighter X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Moonwalker"
 SummaryText="ADVENT SANICs gain the Moonwalker ability, which grants bonus dodge against nearby enemies."
-QuoteText="\"Who showed the Ayyliens those old Michael Jackson clips?!.\""
+QuoteText="\"Who showed the Ayyliens those old Michael Jackson clips?!\""
 QuoteTextAuthor="- Chief Shen"
 PreMissionText="Grants ADVENT SANICs the Moonwalker ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Moonwalker)"
@@ -5349,7 +5349,7 @@ Description="Many ophidian enemies gain the Hunter's Instinct ability, granting 
 DisplayName="Tactical Upgrades: Lightning Reflexes"
 SummaryText="Some SANICs and other enemies gain the Lightning Reflexes ability, allowing them bonuses to avoid reaction fire."
 QuoteText="\"I AM STILL ALIVE, YOU FUCKIN' AMA-ARGGGGH FUCK!\""
-QuoteTextAuthor="- Anonymous Gunnery Sergeant"
+QuoteTextAuthor="- Anonymous Gunnery Sergeant (KIA)"
 PreMissionText="Grants some SANICs and other enemies the Lightning Reflexes ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Lightning Reflexes)"
 PostMissionFailureText="Failed to Counter Dank Event: Tactical Upgrades (Lightning Reflexes)"
@@ -5414,7 +5414,7 @@ Description="ADVENT Campers gain the Combat Awareness ability, granting them bon
 [DarkEvent_IronSkin X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Iron Skin"
 SummaryText="ADVENT robotic units gain the Iron Skin ability, granting them damage reduction against melee attacks."
-QuoteText="\"Th' idea that medieval weaponry cuid murdurr ayylien robotic invaders aye seemed a bawherr bullshit anyway. \""
+QuoteText="\"Th' idea that medieval weaponry cuid murdurr ayylien robotic invaders aye seemed a bawherr bullshit anyway.\""
 QuoteTextAuthor="- Anonymous Scottish Squaddie"
 PreMissionText="Grants ADVENT robotic units the Iron Skin ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Iron Skin)"
@@ -5427,7 +5427,7 @@ Description="ADVENT robotic units gain the Iron Skin ability, granting them dama
 [DarkEvent_TacticalSense X2DarkEventTemplate]
 DisplayName="Tactical Upgrades: Tactical Sense"
 SummaryText="Some enemy units gain the Tactical Sense ability, granting them 3 defense for every sighted XCOM or Resistance operative."
-QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, that's probably that COIN carde our contact's been talking about.\""
+QuoteText="\"Given that one of them just dodged that shot *point fucking blank*, it's probably the COIN carde our contact's been talking about.\""
 QuoteTextAuthor="- Central Officer Bradford"
 PreMissionText="Grants some enemy units the Tactical Sense ability."
 PostMissionSuccessText="Dank Event Countered: Tactical Upgrades (Tactical Sense)"
@@ -5691,8 +5691,8 @@ PostMissionFailureText="Failed to Counter Dank Event: Show of Force"
 [DarkEvent_ViperRounds X2DarkEventTemplate]
 DisplayName="Snek Rounds"
 SummaryText="ADVENT incorporates Snek poison into their weaponry, giving some ADVENT soldiers poisonous rounds for a month."
-PostMissionSuccessText="Dank Event Countered: Viper Rounds"
-PostMissionFailureText="Failed to Counter Dank Event: Viper Rounds"
+PostMissionSuccessText="Dank Event Countered: Snek Rounds"
+PostMissionFailureText="Failed to Counter Dank Event: Snek Rounds"
 
 [DarkEvent_SignalJamming X2DarkEventTemplate]
 SummaryText="The Ayyliens scramble the Avenger's radio signals, greatly increasing all scanning times for six weeks."
@@ -5794,7 +5794,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Spider and Fly"
 [DarkEvent_LeftBehind X2DarkEventTemplate]
 SummaryText="There is a risk of capture on all Covert Actions."
 PreMissionText="There is a risk of capture on all Covert Actions."
-QuoteText="\"Although I symphatize with the motive, we can't jeopardise our mission because our soldier's advent burger order is late.\""
+QuoteText="\"Although I can sympathize with the motive, we cannot jeopardise our mission simply because our soldier's ADVENT Burger order is late.\""
 QuoteTextAuthor="- Dr. Tygan"
 PostMissionSuccessText="Dank Event Countered: Left Behind"
 PostMissionFailureText="Failed to Counter Dank Event: Left Behind"
@@ -5811,7 +5811,7 @@ PostMissionFailureText="Failed to Counter Dank Event: Made Whole"
 DisplayName="Wild Hunt"
 SummaryText="The Edgelords are much more likely to appear in combat."
 QuoteText="\"Yay, free AP.\""
-QuoteTextAuthor="- XCOM soldiers"
+QuoteTextAuthor="- Anonymous XCOM Gunnery Sergeant (KIA)"
 PreMissionText="The Edgelords are much more likely to appear in combat."
 PostMissionSuccessText="Dank Event Countered: Wild Hunt"
 PostMissionFailureText="Failed to Counter Dank Event: Wild Hunt"
@@ -6692,7 +6692,7 @@ TraitScientificName="Homophobia"
 TraitDescription="Chance to panic when poisoned or when squadmates are poisoned."
 TraitQuotes[0]="\"Advent injecting sneks with STD's was a really dick move.\""
 TraitQuotes[1]="\"There was venom everywhere, you could smell it through the mask.\""
-TraitQuotes[2]="\"No offense, but this ship is no place to get sick.\""
+TraitQuotes[2]="\"No offense, but this ship is no place to get the clap.\""
 TraitQuotes[3]="\"She just kept screaming...it was already in her bloodstream...\""
 TraitQuotes[4]="\"I know we don't have anti-venom for these things!\""
 
