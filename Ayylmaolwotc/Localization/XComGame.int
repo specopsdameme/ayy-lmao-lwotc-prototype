@@ -21,7 +21,7 @@ m_strContactBody="Once contacted, the Resistance in <XGParam:StrValue0/!WorldReg
 m_strOutpostBody="Once a radio relay is installed, the intel cost of making contact with nearby regions will be reduced and the Haven in this region will operate at increased efficiency."
 m_strRetaliationBody=Commander, ADVENT has discovered one of our Resistance Havens. They are targeting Resistance members in a reprisal strike!
 
-m_strFacilityTitle="ALIEN FACILITY DISCOVERED"
+m_strFacilityTitle="AYYLIEN FACILITY DISCOVERED"
 m_strFacilityLabel="ADVENT CALENDAR"
 m_strFacilityBody="Commander, we have successfully traced the location of a secret alien research facility conducting experiments related to the ADVENT CALENDAR. We can proceed on your order."
 
@@ -250,7 +250,7 @@ LocPromotionPopupText="<Bullet/> Attacks with your gauntlet, and fires set by ga
 
 [ConcussionRocket X2AbilityTemplate]
 LocFriendlyName="Concussion Rocket"
-LocFlyOverText="Concussion Rocket"
+LocFlyOverText="why the fuck is this a thing"
 LocLongDescription="Fire a special rocket that does limited damage but has a chance to stun or disorient organic enemies within its area of effect and leaves a cloud of smoke."
 LocHelpText="Rocket that stuns or disorients targets and leaves a smoke cloud. <Ability:ROCKETSCATTER/>"
 LocPromotionPopupText="<Bullet/> One use per mission.<br/><Bullet/> Stun and disorientation chances based on target's will score.<br/><Bullet/> Requires one action and ends the soldier's turn."
@@ -784,7 +784,7 @@ RightAbilityTreeTitle="Mastermind"
 
 [Reaper X2SoldierClassTemplate]
 DisplayName="Gopnik"
-ClassSummary="Drunken racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist only to become one with the hardbass, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
+ClassSummary="Drunken racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist solely to become one with the hardbass and invade Ukraine, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
 LeftAbilityTreeTitle="\"STELS\""
 RightAbilityTreeTitle="Sociopath"
 
@@ -797,8 +797,8 @@ RightAbilityTreeTitle="Sociopath"
 
 [Templar X2SoldierClassTemplate]
 DisplayName="Zealot"
-ClassSummary="Victims of Mr. Geist's Wild Ride, Zealots are wildly-trained psionic cosplayers (and Nightcore enthusiasts) - that managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology - who run around pretending to be actual Protoss. They get more insane and powerful as their rave party continues."
-LeftAbilityTreeTitle="MY WAILING PSIBLADE"
+ClassSummary="Victims of Mr. Geist's Wild Ride, Zealots are wildly-trained psionic cosplayers (and Nightcore enthusiasts) who managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology and are now running around pretending to be actual Protoss. They get more insanely powerful as their rave party continues."
+LeftAbilityTreeTitle="Psionic Pimphand"
 RightAbilityTreeTitle="MAJIK"
 
 +AbilityTreeTitles[0]="Psionic Pimphand"
@@ -2814,7 +2814,7 @@ FriendlyName="Tomboy Scramgun"
 
 
 [ArchonM2_LW X2CharacterTemplate]
-strCharacterName="Great Wingmman"
+strCharacterName="Great Wingman"
 
 [SectoidM2_LW X2CharacterTemplate]
 strCharacterName="Big Brain Pectoid"
