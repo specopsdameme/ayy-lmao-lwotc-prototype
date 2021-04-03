@@ -21,9 +21,9 @@ m_strContactBody="Once contacted, the Resistance in <XGParam:StrValue0/!WorldReg
 m_strOutpostBody="Once a radio relay is installed, the intel cost of making contact with nearby regions will be reduced and the Haven in this region will operate at increased efficiency."
 m_strRetaliationBody=Commander, ADVENT has discovered one of our Resistance Havens. They are targeting Resistance members in a reprisal strike!
 
-m_strFacilityTitle="ALIEN FACILITY DISCOVERED"
+m_strFacilityTitle="AYYLIEN FACILITY DISCOVERED"
 m_strFacilityLabel="ADVENT CALENDAR"
-m_strFacilityBody="Commander, we have successfully traced the location of a secret alien research facility conducting experiments related to the ADVENT CALENDAR. We can proceed on your order."
+m_strFacilityBody="Commander, we have successfully traced the location of a secret ayylien research facility conducting experiments related to the ADVENT CALENDAR. We can proceed on your order."
 
 m_strBlackMarketBody="The Black Market has been successfully located, Commander. They seem willing to provide us with material support in exchange for supplies. They're also eager to trade supplies for any unused items we can spare."
 
@@ -250,7 +250,7 @@ LocPromotionPopupText="<Bullet/> Attacks with your gauntlet, and fires set by ga
 
 [ConcussionRocket X2AbilityTemplate]
 LocFriendlyName="Concussion Rocket"
-LocFlyOverText="Concussion Rocket"
+LocFlyOverText="why the fuck is this a thing"
 LocLongDescription="Fire a special rocket that does limited damage but has a chance to stun or disorient organic enemies within its area of effect and leaves a cloud of smoke."
 LocHelpText="Rocket that stuns or disorients targets and leaves a smoke cloud. <Ability:ROCKETSCATTER/>"
 LocPromotionPopupText="<Bullet/> One use per mission.<br/><Bullet/> Stun and disorientation chances based on target's will score.<br/><Bullet/> Requires one action and ends the soldier's turn."
@@ -769,13 +769,44 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 
 ;;;;;;;;;;;;;;;;;;;;  CLASS TEMPLATES ;;;;;;;;;;;;;;;;;;;;;;;
 
-;[Skirmisher X2SoldierClassTemplate]
-;DisplayName="Skirmisher"
-;ClassSummary="Former ADVENT turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now practice proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
+[Skirmisher X2SoldierClassTemplate]
+DisplayName="Rent-An-Ayy"
+ClassSummary="Former ADVENT rank-and-file infantry turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now are practitioners of proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
+LeftAbilityTreeTitle="Ghetto Survivor"
+RightAbilityTreeTitle="Mastermind"
 
-;[Reaper X2SoldierClassTemplate]
-;DisplayName="Gopnik"
-;ClassSummary="Drunken and racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist only to become one with the hardbass, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
++AbilityTreeTitles[0]="Ghetto Survivor"
++AbilityTreeTitles[1]="I AM THE LAW"
++AbilityTreeTitles[2]="Mastermind"
++AbilityTreeTitles[3]="XCOM"
++AbilityTreeTitles[4]="Pistols"
+
+
+[Reaper X2SoldierClassTemplate]
+DisplayName="Gopnik"
+ClassSummary="Drunken racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist solely to become one with the hardbass and invade Ukraine, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
+LeftAbilityTreeTitle="\"STELS\""
+RightAbilityTreeTitle="Sociopath"
+
++AbilityTreeTitles[0]="\"STELS\""
++AbilityTreeTitles[1]="Knife Fetish"
++AbilityTreeTitles[2]="Sociopath"
++AbilityTreeTitles[3]="XCOM"
++AbilityTreeTitles[4]="Pistols"
+
+
+[Templar X2SoldierClassTemplate]
+DisplayName="Zealot"
+ClassSummary="Victims of Mr. Geist's Wild Ride, Zealots are wildly-trained psionic cosplayers (and Nightcore enthusiasts) who managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology and are now running around pretending to be actual Protoss. They get more insanely powerful as their rave party continues."
+LeftAbilityTreeTitle="Psionic Pimphand"
+RightAbilityTreeTitle="MAJIK"
+
++AbilityTreeTitles[0]="Psionic Pimphand"
++AbilityTreeTitles[1]="LSD"
++AbilityTreeTitles[2]="MAJIK"
++AbilityTreeTitles[3]="XCOM"
++AbilityTreeTitles[4]="Pistols"
+
 
 [LWS_Technical X2SoldierClassTemplate]
 DisplayName="Technical"
@@ -2783,7 +2814,7 @@ FriendlyName="Tomboy Scramgun"
 
 
 [ArchonM2_LW X2CharacterTemplate]
-strCharacterName="Great Wingmman"
+strCharacterName="Great Wingman"
 
 [SectoidM2_LW X2CharacterTemplate]
 strCharacterName="Big Brain Pectoid"
@@ -6413,7 +6444,7 @@ AlertString="ADVENT Autobot"
 DisplayName="ADVENT Pedophile Autopsy"
 Summary="An exhaustive autopsy of the Psionic ADVENT unit known as the \"Pedophile\" will no doubt improve our understanding of how they have come to wield so much power, and how we can mirror their abilities for our own purposes."
 CodeName="Apostle"
-LongDescription="Among the ayyliens' more reclusive forces, the ADVENT unit we've come to identify as the \"Pedophile\" has recently become a regular sighting for our forces deployed in the field. These Pedophiles apparently wield a great deal of power over their subordinate ADVENT units, relying on Psionic control to issue orders and exert their will in battle.\n\nWhile their physical appearance is no more striking than that of a typical ADVENT soldier, their talents in wielding Psionic energy clearly differentiates them from the standard hybrid unit. Based on my post-mortem examination, I believe the source of this increased proficiency comes from careful genetic manipulation, a hallmark of the Elders' forces. In this case, an unusual synaptic configuration allows for what I believe to be Psionic transduction between otherwise distinct and unrelated cell types found throughout the body.\n\nIn combat, these increased pathways for the storage and release of Psionic energy allow the Pedophile to project control over its enemies in the field, while bolstering the survivability of its allies. Perhaps most critically, the Pedophile has been known to sustain its own life force through Psionic manipulation, cheating death in a way not seen among the Elders' other subordinate Ayylien races. In the interest of preserving our troops' lives, I've made this particular skill the focus of my research going forward. -R. Tygan."  
+LongDescription="Among the ayyliens' more reclusive forces, the ADVENT unit we've come to identify as the \"Pedophile\" has recently become a regular sighting for our forces and children deployed in the field. These Pedophiles apparently wield a great deal of power over their subordinate ADVENT units, relying on Psionic control to issue orders and exert their will in battle.\n\nWhile their physical appearance is no more striking than that of a typical ADVENT soldier, their talents in wielding Psionic energy clearly differentiates them from the standard hybrid unit. Based on my post-mortem examination, I believe the source of this increased proficiency comes from careful genetic manipulation, a hallmark of the Elders' forces. In this case, an unusual synaptic configuration allows for what I believe to be Psionic transduction between otherwise distinct and unrelated cell types found throughout the body.\n\nIn combat, these increased pathways for the storage and release of Psionic energy allow the Pedophile to project control over its enemies in the field, while bolstering the survivability of its allies. Perhaps most critically, the Pedophile has been known to sustain its own life force through Psionic manipulation, cheating death in a way not seen among the Elders' other subordinate Ayylien races. In the interest of preserving our troops' lives, I've made this particular skill the focus of my research going forward. -R. Tygan."  
 AlertString="ADVENT Pedophile"
 
 [AutopsyTheLost X2TechTemplate]
@@ -6426,7 +6457,7 @@ AlertString="Shitposter"
 DisplayName="Ransomware Autopsy"
 Summary="Known simply as a Ransomware, the study of this being will no doubt lead to revelations as to its unnerving ability to conceal itself and move beyond the confines of the humanoid form." 
 CodeName="Haunt"
-LongDescription="Despite having reviewed both reconnaissance footage and eyewitness accounts from our soldiers in the field, until I had seen this specimen in person, it did not fully register just how unusual it is. Known colloquially as a \"Ransomware\" based on its shadowy form, in the field, the subject is most often seen maintaining a roughly humanoid form. However, when moving or engaging in combat actions, this form is quickly broken to reveal the truly amorphous nature of the Ransomware.\n\nAlthough I had conceived of a number of theories as to how this was taking place, e.g. swarming nanorobots, Ayylien insects, perhaps even some sort of Psionic particle-matrix, it isn't immediately clear that any of those hypotheses are out of the realm of possibility.  As of yet we've found no means of recovering one of these Ransomwares in their \"assembled\" form, leaving little evidence as to their true composition. Although it would seem likely that the Spectre holds some intrinsic connection to the equally elusive Computer Waifu, their means of traversing our world are distinct enough to require a different approach if we hope to further our research. -R. Tygan"  
+LongDescription="Despite having reviewed both reconnaissance footage and eyewitness accounts from our soldiers in the field, until I had seen this specimen in person, it did not fully register just how unusual it is. Known colloquially as a \"Ransomware\" based on its shadowy form, in the field, the subject is most often seen maintaining a roughly humanoid form. However, when moving or engaging in combat actions, this form is quickly broken to reveal the truly amorphous nature of the Ransomware.\n\nAlthough I had conceived of a number of theories as to how this was taking place, e.g. swarming nanorobots, Ayylien insects, perhaps even some sort of Psionic particle-matrix, it isn't immediately clear that any of those hypotheses are out of the realm of possibility.  As of yet we've found no means of recovering one of these Ransomwares in their \"assembled\" form, leaving little evidence as to their true composition. Although it would seem likely that the Ransomware holds some intrinsic connection to the equally elusive Computer Waifu, their means of traversing our world are distinct enough to require a different approach if we hope to further our research. -R. Tygan"  
 AlertString="Ransomware"
 
 [ChosenAssassinWeapons X2TechTemplate]
@@ -6624,8 +6655,8 @@ DisplayName="Pedophile"
 DisplayDescription="The Pedophile is ADVENT's frontline Psionic infantry. Pedophiles can use their Holy Warrior ability to boost the strength of allies and can even Mind Control enemy units."
 
 [Spectre X2MPCharacterTemplate]
-DisplayName="Spectre"
-DisplayDescription="The Spectre vanishes from sight to hunt its prey. The Spectre can attack its foes using their own attacks against them by creating a shadow copy of an enemy."
+DisplayName="Pansomware"
+DisplayDescription="The Ransomware vanishes from sight to hunt its prey. The Ransomware can attack its foes using their own attacks against them by creating a shadow copy of an enemy."
 
 [TheLost X2EncyclopediaTemplate]
 ListTitle="Shitposters"
