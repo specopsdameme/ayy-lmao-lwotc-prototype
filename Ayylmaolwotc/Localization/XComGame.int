@@ -769,43 +769,43 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 
 ;;;;;;;;;;;;;;;;;;;;  CLASS TEMPLATES ;;;;;;;;;;;;;;;;;;;;;;;
 
-;[Skirmisher X2SoldierClassTemplate]
-;DisplayName="Rent-An-Ayy"
-;ClassSummary="Former ADVENT turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now practice proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
-;LeftAbilityTreeTitle="Hussar"
-;RightAbilityTreeTitle="Mastermind"
+[Skirmisher X2SoldierClassTemplate]
+DisplayName="Rent-An-Ayy"
+ClassSummary="Former ADVENT rank-and-file infantry turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now are practitioners of proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
+LeftAbilityTreeTitle="Hussar"
+RightAbilityTreeTitle="Mastermind"
 
-;+AbilityTreeTitles[0]="Hussar"
-;+AbilityTreeTitles[1]="I AM THE LAW"
-;+AbilityTreeTitles[2]="Mastermind"
-;+AbilityTreeTitles[3]="XCOM"
-;+AbilityTreeTitles[4]="Pistols"
-
-
-;[Reaper X2SoldierClassTemplate]
-;DisplayName="Gopnik"
-;ClassSummary="Drunken and racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist only to become one with the hardbass, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
-;LeftAbilityTreeTitle="\"STELS\""
-;RightAbilityTreeTitle="Spare Rifleman"
-
-;+AbilityTreeTitles[0]="\"STELS\""
-;+AbilityTreeTitles[1]="Knife Fetish"
-;+AbilityTreeTitles[2]="Spare Rifleman"
-;+AbilityTreeTitles[3]="XCOM"
-;+AbilityTreeTitles[4]="Pistols"
++AbilityTreeTitles[0]="Hussar"
++AbilityTreeTitles[1]="I AM THE LAW"
++AbilityTreeTitles[2]="Mastermind"
++AbilityTreeTitles[3]="XCOM"
++AbilityTreeTitles[4]="Pistols"
 
 
-;[Templar X2SoldierClassTemplate]
-;DisplayName="Zealot"
-;ClassSummary="Victims of Mr. Geist's Wild Ride, Templars are wildly-trained psionic Protoss cosplayers (and Nightcore enthusiasts) - that managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology - who run around pretending to be actual Protoss. They get more insane and powerful as their rave party continues."
-;LeftAbilityTreeTitle="MY WAILING PSIBLADE"
-;RightAbilityTreeTitle="MAJIK"
+[Reaper X2SoldierClassTemplate]
+DisplayName="Gopnik"
+ClassSummary="Drunken racist hunter-gatherers living off homemade vodka and Zergling eggs within the Chernobyl Nuclear Power Plant, Gopniks exist only to become one with the hardbass, as well as deleting themselves off the face of this Earth before reappearing to vaporize some unfortunate buttfucker off the planet."
+LeftAbilityTreeTitle="\"STELS\""
+RightAbilityTreeTitle="Spare Rifleman"
 
-;+AbilityTreeTitles[0]="MY WAILING PSIBLADE"
-;+AbilityTreeTitles[1]="Dynamo"
-;+AbilityTreeTitles[2]="MAJIK"
-;+AbilityTreeTitles[3]="XCOM"
-;+AbilityTreeTitles[4]="Pistols"
++AbilityTreeTitles[0]="\"STELS\""
++AbilityTreeTitles[1]="Knife Fetish"
++AbilityTreeTitles[2]="Spare Rifleman"
++AbilityTreeTitles[3]="XCOM"
++AbilityTreeTitles[4]="Pistols"
+
+
+[Templar X2SoldierClassTemplate]
+DisplayName="Zealot"
+ClassSummary="Victims of Mr. Geist's Wild Ride, Templars are wildly-trained psionic Protoss cosplayers (and Nightcore enthusiasts) - that managed to become a major faction by stumbling into an anonymously displaced ayylien psi technology - who run around pretending to be actual Protoss. They get more insane and powerful as their rave party continues."
+LeftAbilityTreeTitle="MY WAILING PSIBLADE"
+RightAbilityTreeTitle="MAJIK"
+
++AbilityTreeTitles[0]="MY WAILING PSIBLADE"
++AbilityTreeTitles[1]="Dynamo"
++AbilityTreeTitles[2]="MAJIK"
++AbilityTreeTitles[3]="XCOM"
++AbilityTreeTitles[4]="Pistols"
 
 
 [LWS_Technical X2SoldierClassTemplate]
