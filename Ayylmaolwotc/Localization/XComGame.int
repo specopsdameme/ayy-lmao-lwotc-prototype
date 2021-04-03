@@ -790,7 +790,7 @@ RightAbilityTreeTitle="Spare Rifleman"
 
 +AbilityTreeTitles[0]="\"STELS\""
 +AbilityTreeTitles[1]="Knife Fetish"
-+AbilityTreeTitles[2]="Spare Rifleman"
++AbilityTreeTitles[2]="Sociopath"
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
 
@@ -801,7 +801,7 @@ ClassSummary="Victims of Mr. Geist's Wild Ride, Zealots are wildly-trained psion
 LeftAbilityTreeTitle="MY WAILING PSIBLADE"
 RightAbilityTreeTitle="MAJIK"
 
-+AbilityTreeTitles[0]="MY WAILING PSIBLADE"
++AbilityTreeTitles[0]="Psionic Pimphand"
 +AbilityTreeTitles[1]="LSD"
 +AbilityTreeTitles[2]="MAJIK"
 +AbilityTreeTitles[3]="XCOM"
