@@ -772,10 +772,10 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 [Skirmisher X2SoldierClassTemplate]
 DisplayName="Rent-An-Ayy"
 ClassSummary="Former ADVENT rank-and-file infantry turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now are practitioners of proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
-LeftAbilityTreeTitle="Hussar"
+LeftAbilityTreeTitle="Ghetto Survivor"
 RightAbilityTreeTitle="Mastermind"
 
-+AbilityTreeTitles[0]="Hussar"
++AbilityTreeTitles[0]="Ghetto Survivor"
 +AbilityTreeTitles[1]="I AM THE LAW"
 +AbilityTreeTitles[2]="Mastermind"
 +AbilityTreeTitles[3]="XCOM"
