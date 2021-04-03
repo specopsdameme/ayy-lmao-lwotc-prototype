@@ -802,7 +802,7 @@ LeftAbilityTreeTitle="MY WAILING PSIBLADE"
 RightAbilityTreeTitle="MAJIK"
 
 +AbilityTreeTitles[0]="MY WAILING PSIBLADE"
-+AbilityTreeTitles[1]="Dynamo"
++AbilityTreeTitles[1]="LSD"
 +AbilityTreeTitles[2]="MAJIK"
 +AbilityTreeTitles[3]="XCOM"
 +AbilityTreeTitles[4]="Pistols"
