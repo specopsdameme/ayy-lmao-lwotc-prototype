@@ -770,7 +770,7 @@ m_strRemoveUpgrade="REMOVE UPGRADE"
 ;;;;;;;;;;;;;;;;;;;;  CLASS TEMPLATES ;;;;;;;;;;;;;;;;;;;;;;;
 
 ;[Skirmisher X2SoldierClassTemplate]
-;DisplayName="Rent-A-Ayy"
+;DisplayName="Rent-An-Ayy"
 ;ClassSummary="Former ADVENT turned rebel fighters. Part of a bargain sale on Mall Ninjas, their status as cannon fodder made their chips explode. Their loyalties broken, they now practice proctology and lobotomy on unsuspecting ayyliens to live by the day... and rather worryingly, they seem to get quite into it."
 ;LeftAbilityTreeTitle="Hussar"
 ;RightAbilityTreeTitle="Mastermind"
