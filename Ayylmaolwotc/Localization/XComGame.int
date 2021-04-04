@@ -3878,8 +3878,6 @@ LocFlyOverText="HA HA LET ME SHIT OUT MORE CLONES"
 
 [PsiBombStage1 X2AbilityTemplate]
 LocFriendlyName="Psionic Bomb"
-LocLongDescription="Open a small Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
-LocHelpText="Open a small Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
 LocFlyOverText="FUCK YOUR PATHETIC GUNS"
 
 [CodexImmunities X2AbilityTemplate]
@@ -4183,14 +4181,10 @@ LocHelpText="Shitposter Howls."
 
 [ChosenKidnapMove X2AbilityTemplate]
 LocFriendlyName="Kidnap Move"
-LocLongDescription="Kidnap unit"
-LocHelpText="Kidnap unit"
 LocFlyOverText="I TRIED SO HARD AND GET SO FAR"
 
 [ChosenKidnap X2AbilityTemplate]
 LocFriendlyName="Kidnap"
-LocLongDescription="Kidnap unit"
-LocHelpText="Kidnap unit"
 LocFlyOverText="IN THE END IT DOESN'T EVEN MATTER"
 
 [VanishingWind X2AbilityTemplate]
@@ -4254,8 +4248,6 @@ LocHelpText="Can summon ADVENT SANICs."
 
 [HarborWave X2AbilityTemplate]
 LocFriendlyName="Harbor Wave"
-LocLongDescription="Psionic Wave"
-LocHelpText="Psionic Wave"
 LocFlyOverText="WAKE ME UP"
 
 ; ================================================
