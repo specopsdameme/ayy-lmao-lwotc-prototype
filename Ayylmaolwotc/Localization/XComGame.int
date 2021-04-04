@@ -4179,11 +4179,11 @@ LocHelpText="Shitposter Howls."
 LocFriendlyName="Vanishing Wind"
 LocLongDescription="Assassin disappears like a bitch."
 LocHelpText="Assassin Vanishes"
-LocFlyOverText="Vanishing Wind"
+LocFlyOverText="CRAWLING IN MY SKIN"
 
 [VanishingWindReveal X2AbilityTemplate]
 LocFriendlyName="Hello there"
-LocFlyOverText="Hello there"
+LocFlyOverText="THESE WOUNDS THEY WILL NOT HEAL"
 
 [ChosenKeen X2AbilityTemplate]
 LocLongDescription="Bleeding Out is a 100% chance when dealt a killing blow by the Edgelord."
@@ -6655,7 +6655,7 @@ DisplayName="Pedophile"
 DisplayDescription="The Pedophile is ADVENT's frontline Psionic infantry. Pedophiles can use their Holy Warrior ability to boost the strength of allies and can even Mind Control enemy units."
 
 [Spectre X2MPCharacterTemplate]
-DisplayName="Pansomware"
+DisplayName="Ransomware"
 DisplayDescription="The Ransomware vanishes from sight to hunt its prey. The Ransomware can attack its foes using their own attacks against them by creating a shadow copy of an enemy."
 
 [TheLost X2EncyclopediaTemplate]
