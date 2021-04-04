@@ -3612,13 +3612,13 @@ LocFlyOverText="And this... is to go even further BEYOND"
 ; ================================================
 
 [Stock_LW_Bsc_Ability X2AbilityTemplate]
-LocFlyOverText="Hold still Wanker"
+LocFlyOverText="Hold still, Wanker!"
 
 [Stock_LW_Adv_Ability X2AbilityTemplate]
-LocFlyOverText="Hold still Wanker"
+LocFlyOverText="Hold still, Wanker!"
 
 [Stock_LW_Sup_Ability X2AbilityTemplate]
-LocFlyOverText="Hold still Wanker"
+LocFlyOverText="Hold still, Wanker!"
 
 
 ; ================================================
@@ -3655,7 +3655,7 @@ LocFlyOverText="Cya later, suckas"
 
 [XComGame.X2Action_Yell]
 [X2Action_Yell]
-m_sYellMessage="NOOOO YOU CAN"T JUST KILL THE AYYLIENS, THAT'S RACIST!"
+m_sYellMessage="NOOOO YOU CAN'T JUST KILL THE AYYLIENS, THAT'S RACIST!"
 [XComGame.X2TacticalGameRulesetDataStructures]
 [X2TacticalGameRulesetDataStructures]
 m_aAbilityHitResultStrings[eHit_Deflect]="no."
@@ -3696,8 +3696,8 @@ LocHelpText="Attack an adjacent enemy with your Skullfucker."
 LocLongDescription="The Skullfucker can grant access to the neural chips in certain enemies, but requires melee range to activate."
 
 [Revive X2AbilityTemplate]
-LocHelpText="Remove the Edgelord's \"Dazed\" effect from this soldier. Soldiers may be disoriented when revived."
-LocLongDescription="Remove the Edgelord's \"Dazed\" effect from this soldier. Soldiers may be disoriented when revived."
+LocHelpText="Remove the Edgelord's \"Sleepy\" effect from this soldier. Soldiers may be disoriented when revived."
+LocLongDescription="Remove the Edgelord's \"Sleepy\" effect from this soldier. Soldiers may be disoriented when revived."
 
 [Interact_ActivateAscensionGate X2AbilityTemplate]
 LocHelpText="Travel through the Edgelord's Ascension Gate.  Units not on the platform will return to the Avenger."
@@ -3875,6 +3875,12 @@ LocHelpText="The Computer Waifu is vulnerable to anti-tech attacks."
 LocLongDescription="A Computer Waifu's body is an extra-dimensional projection. When the Computer Waifu is damaged, it 'clones', teleporting to a nearby empty space and warping in another manifestation of itself."
 LocHelpText="Divide into a new Computer Waifu and then teleport when taking damage."
 LocFlyOverText="HA HA LET ME SHIT OUT MORE CLONES"
+
+[PsiBombStage1 X2AbilityTemplate]
+LocFriendlyName="Psionic Bomb"
+LocLongDescription="Open a small Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
+LocHelpText="Open a small Psionic rift that disables the weapons of any units caught in its radius, and deals damage within that radius after one turn."
+LocFlyOverText="FUCK YOUR PATHETIC GUNS"
 
 [CodexImmunities X2AbilityTemplate]
 LocLongDescription="The Computer Waifu is immune from fire, poison, and acid effects."
@@ -4174,6 +4180,18 @@ LocHelpText="Shitposter Howls."
 ; Chosen Abilities
 ; ================================================
 
+
+[ChosenKidnapMove X2AbilityTemplate]
+LocFriendlyName="Kidnap Move"
+LocLongDescription="Kidnap unit"
+LocHelpText="Kidnap unit"
+LocFlyOverText="I TRIED SO HARD AND GET SO FAR"
+
+[ChosenKidnap X2AbilityTemplate]
+LocFriendlyName="Kidnap"
+LocLongDescription="Kidnap unit"
+LocHelpText="Kidnap unit"
+LocFlyOverText="IN THE END IT DOESN'T EVEN MATTER"
 
 [VanishingWind X2AbilityTemplate]
 LocFriendlyName="Vanishing Wind"
