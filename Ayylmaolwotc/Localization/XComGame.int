@@ -4252,6 +4252,12 @@ LocHelpText="Can summon ADVENT SANICs."
 ; Chosen Assassin Abilities
 ; ================================================
 
+[HarborWave X2AbilityTemplate]
+LocFriendlyName="Harbor Wave"
+LocLongDescription="Psionic Wave"
+LocHelpText="Psionic Wave"
+LocFlyOverText="WAKE ME UP"
+
 ; ================================================
 ; Chosen Hunter Abilities
 ; ================================================
